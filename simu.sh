@@ -1,10 +1,1135 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+clear
+# dx color
+r='\033[1;91m'
+p='\033[1;95m'
+y='\033[1;93m'
+g='\033[1;92m'
+n='\033[1;0m'
+b='\033[1;94m'
+c='\033[1;96m'
+
+# dx Symbol
+X='\033[1;92m[\033[1;00m⎯꯭̽𓆩\033[1;92m]\033[1;96m'
+D='\033[1;92m[\033[1;00m〄\033[1;92m]\033[1;93m'
+E='\033[1;92m[\033[1;00m×\033[1;92m]\033[1;91m'
+A='\033[1;92m[\033[1;00m+\033[1;92m]\033[1;92m'
+C='\033[1;92m[\033[1;00m</>\033[1;92m]\033[92m'
+lm='\033[96m▱▱▱▱▱▱▱▱▱▱▱▱\033[0m〄\033[96m▱▱▱▱▱▱▱▱▱▱▱▱\033[1;00m'
+dm='\033[93m▱▱▱▱▱▱▱▱▱▱▱▱\033[0m〄\033[93m▱▱▱▱▱▱▱▱▱▱▱▱\033[1;00m'
+
+# good bye
+goodbye() {
+clear
+echo
+echo -e "${c}     ࿔‧ ֶָ֢˚˖𐦍˖˚ֶָ֢ ‧࿔       ╱|、"
+echo -e "                      (${b}˚${p}ˎ ${b}。${c}7"
+echo -e "                       |、~〵"
+echo -e "                       じしˍ,)⼃"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}      ࿔‧ ֶָ֢˚˖𐦍˖˚ֶָ֢ ‧࿔      ╱|、"
+echo -e "                      (${b}˚${p}ˎ ${b}。${c}7"
+echo -e "                       |、~〵"
+echo -e "                       じしˍ,)ノ"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}     ࿔‧ ֶָ֢˚˖𐦍˖˚ֶָ֢ ‧࿔       ╱|、"
+echo -e "                      (${b}˚${p}ˎ ${b}。${c}7"
+echo -e "                       |、~〵"
+echo -e "                       じしˍ,)⼃"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}     ࿔‧ ֶָ֢˚˖𐦍˖˚ֶָ֢ ‧࿔       ╱|、"
+echo -e "                      (${b}˚${p}ˎ ${b}。${c}7"
+echo -e "                       |、~〵"
+echo -e "                       じしˍ,)ノ"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}      ࿔‧ ֶָ֢˚˖𐦍˖˚ֶָ֢ ‧࿔      ╱|、"
+echo -e "                      (${b}˚${p}ˎ ${b}。${c}7"
+echo -e "                       |、~〵"
+echo -e "                       じしˍ,)⼃"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}        ࿔‧ ֶָ֢˚˖𐦍˖˚ֶָ֢ ‧࿔    ╱|、"
+echo -e "                      (${b}˚${p}ˎ ${b}。${c}7"
+echo -e "                       |、~〵"
+echo -e "                       じしˍ,)ノ"
+echo
+sleep 0.5
+echo -e " ${C} ${g}Goodbye! ${y}(${c}-${r}.${c}-${y})${c}Zzz・・・・ཐི|ཋྀ"
+echo
+exit 0
+}
+
+broken() {
+clear
+echo
+echo -e "${c}        _(\___/)"
+echo -e "      =( ´ ${g}•⁠${p}ω${g}• ⁠${c})=   ˖<💌>."
+echo -e "      // ͡     )︵)"
+echo -e "     (⁠人_____づ_づ"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}        _(\___/)"
+echo -e "      =( ´ ${g}•⁠${p}ω${g}• ⁠${c})=   𖥔˖<💘>.𖥔"
+echo -e "      // ͡     )︵)"
+echo -e "     (⁠人_____づ_づ"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}        _(\___/)"
+echo -e "      =( ´ ${g}•⁠${p}ω${g}• ⁠${c})=   .𖥔 ˖<💘>.𖥔 ݁"
+echo -e "      // ͡     )︵)"
+echo -e "     (⁠人_____づ_づ"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}        _(\___/)"
+echo -e "      =( ´ ${g}•⁠${p}ω${g}• ⁠${c})=   𖥔 ݁ ˖<💛>.𖥔 ݁ "
+echo -e "      // ͡     )︵)"
+echo -e "     (⁠人_____づ_づ"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}        _(\___/)"
+echo -e "      =( ´ ${g}•⁠${p}ω${g}• ⁠${c})=   .𖥔 ݁ ˖<💗>.𖥔 ݁ ˖"
+echo -e "      // ͡     )︵)"
+echo -e "     (⁠人_____づ_づ"
+echo
+sleep 0.5
+clear
+echo
+echo -e "${c}        _(\___/)"
+echo -e "      =( ´ ${g}•⁠${p}ω${g}• ⁠${c})=   ₊ଳ ‧₊˚ ⋅.𖥔 ݁ ˖<💔>.𖥔 ݁ ˖⋅˚₊‧ ଳ₊"
+echo -e "      // ͡     )︵)"
+echo -e "     (⁠人_____づ_づ"
+echo
+sleep 0.5
+echo -e " ${C} ${g}Goodbye! ${y}(${c}-${r}.${c}-${y})${c}Zzz・・・・𑁍ࠬܓ"
+echo
+exit 0
+}
+    SH="\ue7a2"
+# load
+load() {
+clear
+echo -e " ${r}●${n}"
+sleep 0.2
+clear
+echo -e " ${r}●${y}●${n}"
+sleep 0.2
+clear
+echo -e " ${r}●${y}●${b}●${n}"
+sleep 0.2
+}
+
+# update
+update() {
+clear
+	dxnetcheck
+	banner
+	git clone https://github.com/DARK-GANG/SIMU.git
+	cd SIMU
+	bash install.sh
+}
+
+dxemoji() {
+emoji() {
+declare -A letters=(
+    [ ]=😁
+    [A]=🌿
+    [B]=🍃
+    [C]=🌱
+    [D]=🍁
+    [E]=🍀
+    [F]=🌺
+    [G]=🏵
+    [H]=🪺
+    [I]=🌴
+    [J]=🦠
+    [K]=🥏
+    [L]=🎑
+    [M]=🪸
+    [N]=🍂
+    [O]=🌲
+    [P]=✨️
+    [Q]=🦋
+    [R]=🐰
+    [S]=🐣
+    [T]=🥀
+    [U]=🍒
+    [V]=🍼
+    [W]=🌍
+    [X]=🌌
+    [Y]=🔥
+    [Z]=🌊
+    [+]=🌚
+    [×]=⛅️
+    [÷]=🌠
+    ["="]=😀
+    [/]=😃
+    [_]=😄
+    ["<"]=😆
+    [">"]=😅
+    ["["]=🤣
+    ["]"]=😂
+    ["!"]=🙂
+    [@]=🙃
+    ["#"]=🫠
+    [₹]=😉
+    [%]=😊
+    [^]=😇
+    ["&"]=🥰
+    [*]=😍
+    ["("]=🤩
+    [")"]=😘
+    [-]=😗
+    [€]=☺️
+    ["]=😚
+    [":"]=😙
+    [,]=🥲
+    [?]=😋
+    [~]=😛
+    ["\"]=😜
+    ["{"]=🤪
+    ["}"]=😝
+    ["$"]=🤑
+    [¡]=🤗
+    [1]=🐵
+    [2]=🦊
+    [3]=🐶
+    [4]=🐱
+    [5]=🦝
+    [6]=🐔
+    [7]=🦕
+    [8]=🦖
+    [9]=🐠
+    [0]=🐌
+    [.]=🎉
+)
+banner3
+read -p "[+]──[Enter Text]────► " text
+
+uppercase_text=$(echo "$text" | tr '[:lower:]' '[:upper:]')
+converted_text=""
+
+for (( i=0; i<${#uppercase_text}; i++ )); do
+    letter="${uppercase_text:$i:1}"
+    if [[ ${letters[$letter]} ]]; then
+        converted_text="${converted_text}${letters[$letter]} "
+    else
+        converted_text="${converted_text}$letter "
+    fi
+done
+echo
+echo
+echo -e " ${D} ${g}Your Text: ${p}$converted_text${c}"
+echo
+echo
+read -p "[+]──[Enter To Back]────► "
+dxemoji
+}
+
+demoji() {
+# Associative array for numbers to letters
+declare -A num_to_letter=(
+    [😁]=" "
+    [🌿]=a
+    [🍃]=b
+    [🌱]=c
+    [🍁]=d
+    [🍀]=e
+    [🌺]=f
+    [🏵]=g
+    [🪺]=h
+    [🌴]=i
+    [🦠]=j
+    [🥏]=k
+    [🎑]=l
+    [🪸]=m
+    [🍂]=n
+    [🌲]=o
+    [✨️]=p
+    [🦋]=q
+    [🐰]=r
+    [🐣]=s
+    [🥀]=t
+    [🍒]=u
+    [🍼]=v
+    [🌍]=w
+    [🌌]=x
+    [🔥]=y
+    [🌊]=z
+    [🌚]=+
+    [⛅️]=×
+    [🌠]=÷
+    [😀]="="
+    [😃]=/
+    [😄]=_
+    [😆]="<"
+    [😅]=">"
+    [🤣]="["
+    [😂]="]"
+    [🙂]="!"
+    [🙃]=@
+    [🫠]="#"
+    [😉]=₹
+    [😊]=%
+    [😇]=^
+    [🥰]="&"
+    [😍]=*
+    [🤩]="("
+    [😘]=")"
+    [😗]=-
+    [☺️]=€
+    [😚]="
+    [😙]=:
+    [🥲]=,
+    [😋]=?
+    [😛]=~
+    [😜]="\"
+    [🤪]="{"
+    [😝]="}"
+    [🤑]="$"
+    [🤗]=¡
+    [🐵]=1
+    [🦊]=2
+    [🐶]=3
+    [🐱]=4
+    [🦝]=5
+    [🐔]=6
+    [🦕]=7
+    [🦖]=8
+    [🐠]=9
+    [🐌]=0
+    [🎉]=.
+)
+
+dxsimu() {
+    input=$1
+    decoded=""
+    for number in $input; do
+        letter=${num_to_letter[$number]}
+        if [ -z "$letter" ]; then
+            decoded+=" $number"
+        else
+            decoded+="$letter"
+        fi
+    done
+    echo -e " ${D} ${g}Your Text: ${p}$decoded${c}"
+}
+banner3
+# Read input from the user
+read -p "[+]──[Enter Emoji]────► " numbers
+echo
+echo
+# Decode numbers
+dxsimu " $numbers"
+echo
+echo
+read -p "[+]──[Enter to back]────► "
+dxemoji
+}
+while true; do
+  banner3
+  echo -e " ${g}[${n}1${g}] ${c}Encode"
+  echo -e " ${g}[${n}2${g}] ${c}Decode"
+  echo -e " ${g}[${n}3${g}] ${c}About"
+  echo -e " ${g}[${n}4${g}] ${c}Back"
+  echo -e " ${g}[${n}0${g}] ${c}Exit"
+echo
+  read -p "[+]──[Enter Your Choice]────► " test
+
+  case $test in
+      1) echo
+      echo -e " ${A} ${c}You chose to ${g}Encode"
+	echo
+      sleep 1
+      emoji
+        ;;
+       2) echo
+         echo -e " ${A} ${c}You chose to ${g}Decode"
+	echo
+         sleep 1
+        demoji
+        ;;
+        3) echo
+        echo -e " ${A} ${c}You chose to ${g}About"
+        echo
+        sleep 1
+	echo -e " ${A} ${c}Emoji About ${g}Hidden"
+	sleep 3
+	;;
+        4) echo
+        echo -e " ${A} ${c}You chose to ${g}Back"
+        echo
+        sleep 1
+	symbol
+        ;;
+    0) echo
+	goodbye
+	;;
+    *) echo
+echo -e " ${E} ${r}Invalid choice${y}. ${g}Please try again."
+  echo
+ sleep 1;;
+  esac
+done
+}
+
+# dx banner
+banner3() {
+clear
+echo -e " ${r}●${y}●${b}●${n}"
+echo ""
+echo -e "          ${c}███████╗██╗███╗   ███╗██╗   ██╗"
+echo -e "          ${c}██╔════╝██║████╗ ████║██║   ██║"
+echo -e "          ${c}███████╗██║██╔████╔██║██║   ██║"
+echo -e "          ${y}╚════██║██║██║╚██╔╝██║██║   ██║"
+echo -e "          ${y}███████║██║██║ ╚═╝ ██║╚██████╔╝"
+echo -e "          ${y}╚══════╝╚═╝╚═╝     ╚═╝ ╚═════╝"
+echo -e "${y}               +-+-+-+-+-+-+-+-+-+"
+echo -e "${c}               |B|Y|-|D|A|R|K|-|X|"
+echo -e "${y}               +-+-+-+-+-+-+-+-+-+${n}"
+printf "             \e[104m\e[1;98m̽Alphabet Emoji Language,\e[0m\n"
+printf "          \e[104m\e[1;77m̽Convert your Text to Emoji!!\e[0m\n${c}"
+printf "\n"
+echo ""
+}
+banner() {
+clear
+echo -e " ${r}●${y}●${b}●${n}"
+echo ""
+echo -e "          ${c}███████╗██╗███╗   ███╗██╗   ██╗"
+echo -e "          ${c}██╔════╝██║████╗ ████║██║   ██║"
+echo -e "          ${c}███████╗██║██╔████╔██║██║   ██║"
+echo -e "          ${y}╚════██║██║██║╚██╔╝██║██║   ██║"
+echo -e "          ${y}███████║██║██║ ╚═╝ ██║╚██████╔╝"
+echo -e "          ${y}╚══════╝╚═╝╚═╝     ╚═╝ ╚═════╝"
+echo -e "${y}               +-+-+-+-+-+-+-+-+-+"
+echo -e "${c}               |B|Y|-|D|A|R|K|-|X|"
+echo -e "${y}               +-+-+-+-+-+-+-+-+-+${n}"
+printf "             \e[104m\e[1;98m̽Alphabet Number Language,\e[0m\n"
+printf "          \e[104m\e[1;77m̽Convert your Text to Number!!\e[0m\n${c}"
+printf "\n"
+echo ""
+}
+
+# dx simu banner
+# dx banner
+banner2() {
+clear
+echo -e " ${r}●${y}●${b}●${n}"
+echo ""
+echo -e "          ${c}███████╗██╗███╗   ███╗██╗   ██╗"
+echo -e "          ${c}██╔════╝██║████╗ ████║██║   ██║"
+echo -e "          ${c}███████╗██║██╔████╔██║██║   ██║"
+echo -e "          ${y}╚════██║██║██║╚██╔╝██║██║   ██║"
+echo -e "          ${y}███████║██║██║ ╚═╝ ██║╚██████╔╝"
+echo -e "          ${y}╚══════╝╚═╝╚═╝     ╚═╝ ╚═════╝"
+echo -e "${y}               +-+-+-+-+-+-+-+-+-+"
+echo -e "${c}               |B|Y|-|D|A|R|K|-|X|"
+echo -e "${y}               +-+-+-+-+-+-+-+-+-+${n}"
+printf "             \e[104m\e[1;98m̽Alphabet Symbol Language,\e[0m\n"
+printf "          \e[104m\e[1;77m̽Convert your Text to Symbol!!\e[0m\n${c}"
+printf "\n"
+echo ""
+}
+# dx Symbol Language
+symbol() {
+
+dencode() {
+declare -A letters=(
+    [ ]=■
+    [A]=°○°○
+    [B]=♤
+    [C]=♧
+    [D]=□
+    [E]=¤
+    [F]=¡
+    [G]=▪︎
+    [H]=☆
+    [I]=•
+    [J]=°
+    [K]=/
+    [L]=-
+    [M]=¥
+    [N]=#
+    [O]=##
+    [P]=÷
+    [Q]=@
+    [R]=@@
+    [S]=++
+    [T]=+
+    [U]=【
+    [V]=「
+    [W]=『
+    [X]=】
+    [Y]=〕
+    [Z]=」
+    [+]=』
+    [×]=№
+    [÷]=‰
+    ["="]=٪
+    [/]=₽
+    [_]=₩
+    ["<"]=±
+    [">"]=×××
+    ["["]=≠
+    ["]"]=≡
+    ["!"]=—
+    [@]=–
+    ["#"]=,,
+    [₹]=,,,
+    [%]=,
+    [^]=》》
+    ["&"]=《《
+    [*]=》
+    ["("]=《
+    [")"]=♥︎
+    [-]=◆
+    [€]=♣︎
+    ["]=■■
+    [":"]=□
+    [,]=¤¤
+    [?]=▪︎▪︎▪︎
+    [~]=☆☆☆
+    ["\"]=¡¡¡
+    ["{"]=••••
+    ["}"]=€€
+    ["$"]=○●○
+    [¡]=°°°
+    [0]=□■
+    [1]=°°
+    [2]=••••
+    [3]=♡♡♡♡
+    [4]=◇◇◇◇
+    [5]=♧♧♧♧
+    [6]=¥¥¥¥
+    [7]=■■■■■
+    [8]=》》》》
+    [9]=¤¤¤¤¤
+    [.]=○●○○●
+)
+banner2
+read -p "[+]──[Enter Text]────► " text
+
+uppercase_text=$(echo "$text" | tr '[:lower:]' '[:upper:]')
+converted_text=""
+
+for (( i=0; i<${#uppercase_text}; i++ )); do
+    letter="${uppercase_text:$i:1}"
+    if [[ ${letters[$letter]} ]]; then
+        converted_text="${converted_text}${letters[$letter]} "
+    else
+        converted_text="${converted_text}$letter "
+    fi
+done
+echo
+echo
+echo -e " ${D} ${g}Your Text: ${p}$converted_text${c}"
+echo
+echo
+read -p "[+]──[Enter To Back]────► "
+symbol
+}
+
+ddecode() {
+# Associative array for numbers to letters
+declare -A num_to_letter=(
+    [■]=" "
+    [°○°○]=a
+    [♤]=b
+    [♧]=c
+    [□]=d
+    [¤]=e
+    [¡]=f
+    [▪︎]=g
+    [☆]=h
+    [•]=i
+    [°]=j
+    [/]=k
+    [-]=l
+    [¥]=m
+    [#]=n
+    [##]=o
+    [÷]=p
+    [@]=q
+    [@@]=r
+    [++]=s
+    [+]=t
+    [【]=u
+    [「]=v
+    [『]=w
+    [】]=x
+    [〕]=y
+    [」]=z
+    [』]=+ #gg
+    [№]=×
+    [‰]=÷
+    [٪]="="
+    [₽]=/
+    [₩]=_
+    [±]="<"
+    [×××]=">"
+    [≠]="["
+    [≡]="]"
+    [—]="!"
+    [–]=@
+    [,,]=#
+    [,,,]=₹
+    [,]=%
+    [》》]=^
+    [《《]="&"
+    [》]=*
+    [《]="("
+    [♥︎]=")"
+    [◆]=-
+    [♣︎]=€
+    [■■]="
+    [□]=":"
+    [¤¤]=,
+    [▪︎▪︎▪︎]=?
+    [☆☆☆]=~
+    [¡¡¡]="\"
+    [••••]="{"
+    [€€]="}"
+    [●○●]="$"
+    [°°°]=¡ #gg
+    [□■]=0
+    [°°]=1
+    [••••]=2
+    [♡♡♡♡]=3
+    [◇◇◇◇]=4
+    [♧♧♧♧]=5
+    [¥¥¥¥]=6
+    [■■■■■]=7
+    [》》》》]=8
+    [¤¤¤¤¤]=9
+    [○●○○●]=.
+)
+
+simu() {
+    input=$1
+    decoded=""
+    for number in $input; do
+        letter=${num_to_letter[$number]}
+        if [ -z "$letter" ]; then
+            decoded+=" $number"
+        else
+            decoded+="$letter"
+        fi
+    done
+    echo -e " ${D} ${g}Your Text: ${p}$decoded${c}"
+}
+banner2
+# Read input from the user
+read -p "[+]──[Enter Symbol]────► " numbers
+echo
+echo
+# Decode numbers
+simu " $numbers"
+echo
+echo
+read -p "[+]──[Enter to back]────► "
+symbol
+}
+while true; do
+  banner2
+  echo -e " ${g}[${n}1${g}] ${c}Encode"
+  echo -e " ${g}[${n}2${g}] ${c}Decode"
+  echo -e " ${g}[${n}3${g}] ${c}About"
+  echo -e " ${g}[${n}4${g}] ${c}Emoji"
+  echo -e " ${g}[${n}5${g}] ${c}Back"
+  echo -e " ${g}[${n}0${g}] ${c}Exit"
+echo
+  read -p "[+]──[Enter Your Choice]────► " test
+
+  case $test in
+      1) echo
+      echo -e " ${A} ${c}You chose to ${g}Encode"
+	echo
+      sleep 1
+      dencode
+        ;;
+       2) echo
+         echo -e " ${A} ${c}You chose to ${g}Decode"
+	echo
+         sleep 1
+        ddecode
+        ;;
+        3) echo
+        echo -e " ${A} ${c}You chose to ${g}About"
+        echo
+        sleep 1
+	echo -e " ${A} ${c} Symbol About ${g}Hidden"
+	sleep 3
+	;;
+        4) echo
+        echo -e " ${A} ${c}You chose to ${g}Emoji"
+        echo
+        sleep 1
+        dxemoji
+	;;
+        5) echo
+        echo -e " ${A} ${c}You chose to ${g}Back"
+        echo
+        sleep 1
+	main
+        ;;
+    0) echo
+	goodbye
+	;;
+    *) echo
+echo -e " ${E} ${r}Invalid choice${y}. ${g}Please try again."
+  echo
+ sleep 1;;
+  esac
+done
+}
+# dx symbol password
+passd() {
+	while true; do
+	clear
+echo
+echo -e "${c}       ██████╗  █████╗ ███████╗███████╗"
+echo -e "${c}       ██╔══██╗██╔══██╗██╔════╝██╔════╝"
+echo -e "${c}       ██████╔╝███████║███████╗███████╗"
+echo -e "${y}       ██╔═══╝ ██╔══██║╚════██║╚════██║"
+echo -e "${y}       ██║     ██║  ██║███████║███████║"
+echo -e "${y}       ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝${n}"
+echo
+printf "                 \e[104m\e[1;98m̽Enter Password,\e[0m\n"
+printf "           \e[104m\e[1;77m̽And access more Language!!\e[0m\n${c}"
+printf "\n"
+echo ""
+read -p "[+]──[Enter Pass]────► " pass
+
+	if [[ ($pass == "dx-simu-369") ]]
+	then
+	echo
+	echo -e " ${A} ${y}Unlocked Symbol ${g}Language 🔓"
+	echo
+	sleep 2
+	symbol
+	else
+	echo
+	echo -e " ${E} ${r}Invalid Password${y}. ${g}Please try again."
+ 	echo
+ 	sleep 1
+	fi
+	done
+}
+
+# Convert Text to Number
+encode() {
+declare -A letters=(
+    [ ]=77
+    [A]=1
+    [B]=2
+    [C]=3
+    [D]=4
+    [E]=5
+    [F]=6
+    [G]=7
+    [H]=8
+    [I]=9
+    [J]=10
+    [K]=11
+    [L]=12
+    [M]=13
+    [N]=14
+    [O]=15
+    [P]=16
+    [Q]=17
+    [R]=18
+    [S]=19
+    [T]=20
+    [U]=21
+    [V]=22
+    [W]=23
+    [X]=24
+    [Y]=25
+    [Z]=26
+    [+]=27
+    [×]=28
+    [÷]=29
+    ["="]=30
+    [/]=31
+    [_]=32
+    ["<"]=33
+    [">"]=34
+    ["["]=35
+    ["]"]=36
+    ["!"]=37
+    [@]=38
+    ["#"]=39
+    [₹]=40
+    [%]=41
+    [^]=42
+    ["&"]=43
+    [*]=44
+    ["("]=45
+    [")"]=46
+    [-]=47
+    [€]=48
+    ["]=49
+    [":"]=50
+    [,]=52
+    [?]=53
+    [~]=54
+    ["\"]=55
+    ["{"]=56
+    ["}"]=57
+    ["$"]=58
+    [¡]=59
+    ["1"]=01
+    [2]=02
+    [3]=03
+    [4]=04
+    [5]=05
+    [6]=06
+    [7]=07
+    [8]=08
+    [9]=09
+    [0]=76
+    [.]=¹
+)
+banner
+read -p "[+]──[Enter Text]────► " text
+
+uppercase_text=$(echo "$text" | tr '[:lower:]' '[:upper:]')
+converted_text=""
+
+for (( i=0; i<${#uppercase_text}; i++ )); do
+    letter="${uppercase_text:$i:1}"
+    if [[ ${letters[$letter]} ]]; then
+        converted_text="${converted_text}${letters[$letter]} "
+    else
+        converted_text="${converted_text}$letter "
+    fi
+done
+echo
+echo
+echo -e " ${D} ${g}Your Text: ${p}$converted_text${c}"
+echo
+echo
+read -p "[+]──[Enter To Back]────► "
+}
+
+# Convert Number to text
+decode() {
+# Associative array for numbers to letters
+declare -A num_to_letter=(
+    [77]=" "
+    [1]=a
+    [2]=b
+    [3]=c
+    [4]=d
+    [5]=e
+    [6]=f
+    [7]=g
+    [8]=h
+    [9]=i
+    [10]=j
+    [11]=k
+    [12]=l
+    [13]=m
+    [14]=n
+    [15]=o
+    [16]=p
+    [17]=q
+    [18]=r
+    [19]=s
+    [20]=t
+    [21]=u
+    [22]=v
+    [23]=w
+    [24]=x
+    [25]=y
+    [26]=z
+    [27]=+ #gg
+    [28]=×
+    [29]=÷
+    [30]="="
+    [31]=/
+    [32]=_
+    [33]="<"
+    [34]=">"
+    [35]="["
+    [36]="]"
+    [37]="!"
+    [38]=@
+    [39]=#
+    [40]=₹
+    [41]=%
+    [42]=^
+    [43]="&"
+    [44]=*
+    [45]="("
+    [46]=")"
+    [47]=-
+    [48]=€
+    [49]="
+    [50]=":"
+    [52]=,
+    [53]=?
+    [54]=~
+    [55]="\"
+    [56]="{"
+    [57]="}"
+    [58]="$"
+    [59]=¡ #gg
+    [011]="1"
+    [02]=2
+    [03]=3
+    [04]=4
+    [05]=5
+    [06]=6
+    [07]=7
+    [08]=8
+    [09]=9
+    [76]=0
+    [¹]=.
+)
+
+dx() {
+    input=$1
+    decoded=""
+    for number in $input; do
+        letter=${num_to_letter[$number]}
+        if [ -z "$letter" ]; then
+            decoded+=" $number"
+        else
+            decoded+="$letter"
+        fi
+    done
+    echo -e " ${D} ${g}Your Text: ${p}$decoded${c}"
+}
+banner
+# Read input from the user
+read -p "[+]──[Enter Number]────► " numbers
+echo
+echo
+# Decode numbers
+dx " $numbers"
+echo
+echo
+read -p "[+]──[Enter to back]────► "
+}
+
+dxnetcheck() {
+clear
+echo ""
+echo ""
+echo -e "               ${p}╔═══════════════╗"
+echo -e "               ${p}║ ${n}</>  ${c}DARK-X${p}   ║"
+echo -e "               ${p}╚═══════════════╝"
+echo -e "  ${p}╔════════════════════════════════════════════╗"
+echo -e "  ${p}║  ${C} ${y}Checking Your Internet Connection¡${p}  ║"
+echo -e "  ${p}╚════════════════════════════════════════════╝${n}\n"
+	sleep 3
+    while true; do
+        wget --spider --quiet https://github.com
+        if [ "$?" != 0 ]; then
+            echo -e "  ${E} ${r}No internet! \033[91m(ToT)\007\n"
+            sleep 2.5
+        else
+            break
+        fi
+    done
+    clear
+}
+
+Report() {
+dxnetcheck
+# Report Developer
+UP=$(date +'%Y-%m-%d %H:%M')
+SHELL=$(basename $SHELL)
+TM=$(date +"%T")
+MODEL=$(getprop ro.product.model)
+VENDOR=$(getprop ro.product.manufacturer)
+VS=$(getprop ro.build.version.release)
+ABI_LIST=$(getprop ro.product.cpu.abi)
+ABI_LIST+=","$(getprop ro.product.cpu.abi2)
+
+clear
+echo ""
+echo ""
+echo -e "${c}               __"
+echo -e "       _(\    |${r}@@${c}|              ${g}Hey 👋 ${c}"
+echo -e "      (__/\__ \--/ __    ${p}Enter Your Username${c}"
+echo -e "         \___|----|  |   __"
+echo -e "             \ ${p}][ ${c}/\ )_ / _\ "
+echo -e "             /\__/\ \__O (__"
+echo -e "            (--/\--)    \__/"
+echo -e "            _)(  )(_"
+echo -e "            ---  --- ${c}"
+echo ""
+echo -e " ${A} ${c}Enter Your ${g}Telegram Username${c}"
+echo -e " ${A} ${c}You will be contacted later on${g} Telegram${c}"
+echo
+echo
+read -p "[+]──[Enter Your Usrname]────► " NAME
+clear
+echo ""
+echo ""
+echo -e "${c}               __"
+echo -e "       _(\    |${r}@@${c}|              ${g}Hey 👋 ${c}"
+echo -e "      (__/\__ \--/ __    ${p}Enter Your Report${c}"
+echo -e "         \___|----|  |   __"
+echo -e "             \ ${p}][ ${c}/\ )_ / _\ "
+echo -e "             /\__/\ \__O (__"
+echo -e "            (--/\--)    \__/"
+echo -e "            _)(  )(_"
+echo -e "            ---  --- ${p}"
+echo ""
+echo -e " ${A} ${c}Enter Your ${g}Report${c}"
+echo
+echo
+read -p "[+]──[Enter Your Report]────► " USER
+echo
+MESSAGE="
+〄 SIMU USER ⎙
+USER: $NAME
+VENDOR: $VENDOR
+MODEL: $MODEL
+ABIs: $ABI_LIST
+VS: $VS
+UP: $UP
+SHELL: $SHELL
+TIME: $TM
+
+USER REPORT ⌲ $USER
+
+
+"
+echo -e " ${A} ${y}Waiting For few minutes"
 z="
-";Whz='ge �';wOz='[0m\';MMz='do';Bcz='3335';GBz='}   ';ycz=''\'';oz';ZRz='[『]=';LTz='ers';AMz=' " n';pQz='er2';pYz='MODE';IEz='[A]=';OGz='["{"';qRz='_';bGz='🐶';xTz='m\n"';tTz='er P';Fgz=' $ch';HVz='22';oOz='m\e[';eUz='id P';bSz='•]="';tJz='[😄]';oTz='██║ ';icz='Ez='\''';yBz='r}.$';QYz=' \03';sTz='̽Ent';JBz='˚˖𐦍';CVz='17';Ygz='4 24';wYz='VEND';ODz='() {';WXz=' Num';OVz='29';lKz='=~';tez='pace';vEz='🥀';LIz='D} $';gEz='[M]=';Shz='{g}S';ZLz='""';XCz='{g}•';yz='[93m';vZz='  \ ';MBz='    ';wHz='; th';LYz=' 0 ]';vYz='odel';nRz='"="';Paz='r ${';Jgz='de';SOz='|B|Y';dGz='🐱';EBz=' -e ';TCz='( ´ ';Qbz=': $T';CSz='[–]=';sQz='" "';tYz='rodu';Xcz='='\''"h';SBz='˚${p';nUz='de()';vOz='!!\e';Igz='n}"';gbz='d='\'';';QFz=']=😀';BGz='☺️';tQz='[°○°';Mcz=''\'';Mz';lgz='e/DA';mez='══╗\';Lz='1;92';tVz=']=01';jJz='[🌚]';pKz='="{"';YLz='ded=';WCz='p}ω$';Ohz='d4dx';sfz='4"';wMz='2) e';ZDz='tche';rVz='59';Waz='ou w';MHz='" | ';vGz=' -p ';HUz='re L';VVz=']=36';kRz='[№]=';Rdz='null';xWz='[50]';GUz='s mo';Sbz=' REP';EOz='╔╝██';DMz='mu "';POz='"${y';tz='▱▱▱▱';wVz='04';qHz='if [';MJz='=o';KJz='=n';fJz='[🔥]';uKz='[🤗]';jCz='__づ_';qIz='[🍀]';tLz='ecod';xz='dm='\''';lez='c}╔═';qKz='[😝]';XMz='{n}4';hUz='}Ple';KQz='》》';YZz='"$(g';IUz='angu';SPz='■';vcz='2-'\'';';vKz='=¡';WVz=']=37';BYz='╝${n';BUz='4m\e';ubz=':/'\'';';gRz='z';EZz='manu';RYz='3[91';kDz='/DAR';Aaz=' / _';KSz='[》]=';Pfz='g}8"';pPz='『';Xaz='ill ';TKz='=*';gLz='_to_';JNz='n"';VDz='}"';UVz=']=35';ZXz='ck()';DZz='uct.';qNz='█╗"';mRz='[٪]=';hZz='__/\';Naz='  --';nfz='0  $';kYz=' $SH';fNz='er3(';JKz='="#"';Ehz='rkH4';KPz='t Sy';BHz='t]──';gNz=' ""';wIz='[🪺]';KKz='[😉]';sYz='ro.p';dKz='="';BDz='�>.�';Pbz='TIME';wcz='Xz='\''';SLz='=.';PYz='net!';rQz='[■]=';kPz='@@';cDz='er';kJz='=+';ocz=''\'';Bz';CMz='rs';qcz='rl'\'';';IFz='🌊';lbz=' $'\'';';ZQz=']=€€';tDz='tall';kNz='██╗█';cBz='p 0.';qFz=']=🥰';Eez='z$Lz';jNz='████';Xgz=' 04 ';XUz='nloc';bFz='["]"';baz=' lat';AFz='🍼';kQz='■■■■';bfz='g}14';xOz='n${c';sMz='de"';fz='〄\03';iXz='X${p';PRz='[#]=';JLz='[🦕]';UBz='{b}。';VSz='︎▪︎]';SWz='[21]';vLz='c}"';yJz='=">"';rgz='ss: ';WSz='[☆☆☆';pfz='}V${';QJz='=q';kZz='__  ';jez='t() ';MPz='to S';WMz='out"';Ydz='='\''ec';NHz='tr '\''';XFz='[">"';HSz='%';fbz='='\''_i';Afz='{g}1';VXz='dx()';hfz='}17 ';YUz='ked ';sLz='p}$d';QUz=' == ';OSz='[♥︎]';uJz='=_';aKz='[☺️]';KWz='[13]';AQz=']=±';ILz='=6';KLz='=7';ZEz='🌴';GZz='urer';qgz='ho';iGz='[7]=';eTz='d() ';cYz='%Y-%';Agz='c}Re';pEz='🦋';GTz='simu';gUz='{y}.';hRz='[』]=';wXz='tion';uQz='○]=a';nbz=''\'';gz';oNz='╗██╗';Ibz=': $A';eBz='   ࿔';EWz='¹';PGz=']=🤪';hEz='🪸';Cez='$Iz$';DBz='echo';Scz='='\''/a';hJz='[🌊]';kez='8m${';Vfz='11  ';OCz=' _(\';iJz='=z';XVz='38';jKz='=?';TSz='[¤¤]';kWz='[37]';qTz='╚═╝ ';qaz=' USE';xaz='⎙';TUz='") ]';kUz='agai';Ogz='te${';Ggz=' in';EDz='ଳ ‧₊';JHz='(ech';MLz='=8';xMz='Deco';dMz=' You';pdz='ez='\''';wKz='[🐵]';KDz='SH="';ZMz='ck"';SKz='[😍]';vHz='} ]]';lXz='{p}╔';Rgz='X} $';FUz='cces';hYz='L=$(';vaz='MU U';cWz='[29]';bCz='<💌>';wCz='>.𖥔';uPz='№';VJz='[🥀]';wFz=']=😘';NYz='${r}';ALz='=2';TMz='c}De';CHz='──► ';Vz='33[1';hKz='=,';PBz='"   ';HZz='VS=$';bTz='5) e';IHz='xt=$';LWz='[14]';eJz='=x';tIz='=f';ACz='{c}-';Pcz='Iz='\''';jgz='ps:/';CNz='t"';aGz='[3]=';ddz='='\''eg';MNz='symb';ibz='AAE9';YOz='prin';ZZz='i2)';WRz='u';VBz='${c}';qz='33[9';kLz='" ];';Kfz='y}F$';cHz='#upp';uDz='.sh';nz='C='\''\';Qfz='{y}I';Laz='  )(';vUz='11';VOz='|K|-';Xez='$jz$';EYz=' --s';UHz='conv';tMz='p 1';UQz='▪︎▪︎';rWz='[44]';Zcz='uz='\''';THz=']'\'')';CJz='=j';iZz='__ \';uYz='ct.m';WPz='□';Kcz='Zz='\''';uRz=']=">';ESz='=#';Tfz='g}10';PMz='] ${';Hhz='{c}G';ZIz='oji';jDz='.com';sSz='[¥¥¥';CWz='09';AZz='prop';Nez='z$Xz';DHz='" te';SFz='😃';RFz='[/]=';RPz='ode(';AVz='15';Nhz='al${';HIz='}$le';DTz='[○●○';pOz='1;77';mOz='  \e';DLz='[🐱]';IXz='=¡ #';hSz=']=¡ ';LXz='[02]';yGz='nter';oVz=']=56';yHz='${co';nXz='  ${';MYz='{E} ';RSz='[■■]';rLz='r"';Gaz=' (--';QPz='denc';lfz='}T${';JGz='😋';FBz='"${c';qdz='"670';HEz='😁';gYz='SHEL';jPz='@';fUz='ord$';kdz='Lz='\''';XYz='Repo';JCz='brok';wez=' ${y';MUz='s]──';hz='E='\''\';lFz='[%]=';iVz='49';ogz='R_36';CTz='9';jBz='࿔   ';gez='tz$u';uFz=']=🤩';aOz=' \e[';Hfz='g}4 ';Hdz='chat';FIz=' "';AGz='[€]=';MCz='}   ';maz='p}"';mbz='vz='\''';Jz='1;93';IGz='[?]=';HHz='e_te';XWz='[26]';tOz='ext ';pSz='◇]=4';xCz=' ݁ "';hgz='open';ucz='='\''1k';cMz='it"';GEz='[ ]=';bBz='slee';gXz='{c}D';SDz='{y}●';DOz='║╚██';WQz=']=¡¡';eSz='[●○●';VTz='bout';Tz='X='\''\';RXz='[08]';YPz='¡';Pgz='te';ETz='○●]=';Ubz='⌲ $U';bVz='42';EGz='[":"';pCz='   .';dNz=';';kGz='[8]=';ebz='";dz';MRz='l';qXz='ing ';gIz='[😁]';Oaz='- ${';XOz='+-+$';NXz='[04]';lTz='══╝ ';vez='}77 ';qJz='="="';TVz=']=34';Ecz='s '\'';';LDz='\ue7';DSz='[,,]';XXz='ber]';iWz='[35]';UWz='[23]';kaz=' Rep';HRz='h';oQz='●';yRz='"]"';Rz='c='\''\';Wdz='438:';tKz='="$"';kz='A='\''\';yWz='=":"';iTz='═══╝';bbz='inut';Vgz='e: $';fGz='🦝';hLz='er[$';mMz='cho';dYz='m-%d';DEz='-A l';jZz='--/ ';Hcz=''\'';Wz';EKz='[🙂]';Fhz='cker';lUz='n."';NQz=']=《';sRz='"<"';iRz='+ #g';UMz='{n}3';oRz='[₽]=';MWz='[15]';gDz='tps:';mEz='[P]=';hTz='═██╗';WZz='i)';HNz='{g}H';TBz='}ˎ $';JQz=',';dVz='44';IKz='[🫠]';bPz='•';mSz='[♡♡♡';mZz='ter ';fVz=']=46';eXz='n}</';HFz='[Z]=';laz='ort$';CZz='prod';Rbz='M';Ybz='ng F';TWz='[22]';sGz=')';iBz='ָ֢ ‧';sIz='[🌺]';adz='Sz='\''';dXz='║ ${';vTz='ord,';XQz=']=••';mBz='ֶָ֢˚';mXz='{p}║';fOz='habe';hVz='48';bJz='[🌍]';nNz=' ███';BLz='[🐶]';Udz='}T'\'';';DWz='76';xDz='emoj';KZz='rsio';cdz=''\'';Jz';PSz='[◆]=';KFz='🌚';NUz='" pa';wSz='7';cLz='n $i';sWz='[45]';iSz='#gg';nIz='=c';JUz='age!';OIz='Text';Wcz=''\'';Fz';bLz='er i';yQz='c';GLz='=5';TOz='|-|D';MEz='[C]=';TQz='¤¤';mIz='[🌱]';Ifz='}E${';OMz='{n}1';lHz='${up';kFz='😉';LOz='╝   ';CKz='[😂]';rMz='Enco';fBz='‧ ֶָ';MDz='a2"';YQz='••';GQz='–';pRz='[₩]=';ufz='}25 ';oz='</>\';oLz='=" $';Uaz='ame$';XPz='¤';dUz='p 2';GIz='else';xKz='=1';nGz='🐠';INz='idde';bez='z$Az';IJz='=m';yYz='(get';TTz='Symb';DFz='[X]=';fez='$sz$';Yaz='be c';Jcz='fE'\'';';ULz='mu()';Yz='�\03';Sdz=''\'';rz';dJz='[🌌]';Hbz='ABIs';Iaz=')   ';UUz=']';ZNz='leas';FPz='to N';Gez='Nz$O';FNz=' Abo';NFz='[÷]=';nTz='╚═══';TIz='_tex';pHz='1}"';xXz='¡${p';TLz='dxsi';BXz='[53]';HBz='  ࿔‧';Kz='g='\''\';aPz='☆';YEz='[I]=';cNz='p 1;';tWz='[46]';SSz='":"';vSz='■■]=';Zz='3[1;';LZz='n.re';qEz='[R]=';vPz='‰';jYz='name';wRz='"["';hCz='  (⁠';cPz='°';rEz='🐰';PEz='🍁';OPz='l!!\';NZz='ABI_';RIz='onve';mGz='[9]=';Dhz='/@Da';YYz='rt()';DDz='   ₊';BKz='="["';ecz='send';XBz='|、~〵';lDz='K-GA';NTz='ers"';VHz='erte';QXz='[07]';XKz='=")"';xez='}A${';BVz='16';vXz='nnec';Zdz='ho'\'';';SCz='   =';gKz='[🥲]';Kgz='t${n';LJz='[🌲]';LPz='mbol';yLz='───►';Edz='='\''de';eCz='/ ͡ ';CLz='=3';Bgz='c}Up';kTz='███║';hFz='["#"';nMz='A} $';pgz=') ec';Xdz=''\'';Az';Mhz='pe: ';qez='c}╚═';hGz='🐔';iz='×\03';wDz='oji(';ngz='4CK3';Tcz='pi'\'';';qQz='ddec';Iz='y='\''\';pJz='[😀]';Nz='1;0m';nHz='ase_';YVz=']=39';uz='[0m〄';JRz='[°]=';Aez='Fz$G';NGz=']=😜';yfz='.."';FOz='{y}█';Gz='p='\''\';QLz='=0';RGz=']=😝';QRz='[##]';tUz='8';xPz='₽';Ndz=''\'';sz';DUz='7m̽A';TYz='T)\0';vMz=';;';KTz='► " ';Cdz='GE" ';Dcz='='\'' -';Xfz='g}12';JMz='whil';KRz='j';eQz='°°';ATz='[¤¤¤';mFz='😊';EHz='xt';MVz='27';PVz=']=30';gcz='='\''ES';xEz='🍒';fQz='••••';Wbz='{y}W';cz='[1;9';pLz='er"';wGz='"[+]';tHz='$let';nVz=']=55';jcz='OST ';Nbz='UP: ';oXz='{y}C';tEz='🐣';Fcz='Kz='\''';aDz='ck';YHz='for ';kKz='[😛]';cJz='=w';gOz='t Em';vbz='pz='\''';wbz=''\'';Vz';jaz='ME';ISz='[》》]';PFz='["="';Kaz=' _)(';NPz='ymbo';fDz='e ht';ITz='bol]';UFz='😄';Rfz='}9  ';PKz='=^';oUz='77';eLz='er=$';uVz='02';mJz='=×';KNz='p 3';ffz='g}16';WEz='[H]=';aCz='   ˖';lEz='🌲';iQz='♧♧♧♧';naz='g}Re';RQz='■■';cgz='ss T';OBz='|、"';TFz='[_]=';jbz=''\'';qz';AKz='[🤣]';bYz='e +'\''';UCz='${g}';gBz='֢˚˖�';oCz='�"';TNz='nval';FDz='˚ ⋅.';QSz='[♣︎]';CEz='are ';mz='2m'\''';aRz='w';GYz='r --';qMz='hose';Ez='1;91';yKz='[🦊]';DJz='[🥏]';tZz='  | ';xVz='05';Sgz='e Po';vz='[1;0';Gbz='L';rBz='C} $';efz='P${n';pDz='cd S';uTz='assw';eIz='o_le';RWz='[20]';wPz=']=٪';lQz='》》》》';xbz='='\''z9';XEz='🪺';xUz='13';gVz='47';dgz='ype:';yez='n}=$';FFz='[Y]=';aTz='i"';taz='AGE=';gTz='██╔═';ifz='}R${';Dfz='2  $';EJz='=k';kVz='52';CFz='🌍';KOz='═╝╚═';aBz=')⼃"';rKz='="}"';Daz=' \__';WYz='brea';RKz='="&"';jIz='=a';LNz='4) e';mLz='n';vFz='[")"';BBz='bye(';AEz='{';Vdz='Oz='\''';Pz='b='\''\';lz='+\03';WFz=']=😆';iMz='case';haz='e]──';gMz=' tes';rPz='〕';OLz='=9';XHz='xt="';Abz=': $N';WDz='upda';ZBz='じしˍ,';SIz='rted';hNz='   $';pWz='[42]';ZGz='🦊';BIz='ted_';uXz='t Co';pVz=']=57';VZz='u.ab';WJz='=t';qBz='" ${';Zgz=' ${c';yUz='14';GWz='a';vBz='${y}';xJz='[😅]';HTz=' Sym';UPz='♤';PWz='[18]';JTz='────';iKz='[😋]';Ugz=' cod';NKz='=%';Khz='u an';yaz='USER';rFz='[*]=';uCz='� ݁ ';AIz='nver';oDz='git';edz='ra'\'';';ccz='$M'\'';';ARz='[□]=';Jaz='/"';JPz='er2(';RLz='[🎉]';gCz=')︵)"';bMz='c}Ex';KBz='˖˚ֶָ';IDz='‧ ଳ₊';YCz=' ⁠${';Ddz=''\'';mz';xgz=' 06 ';ZPz='▪︎';XRz='[「]=';vNz='║██║';wBz='(${c';LQz=']=《《';Kdz='e"'\'';';Gfz='}=${';rGz='🎉';ePz='-';oYz='%T")';oHz=':$i:';rCz='<💘>';vDz='dxem';Zez='z$mz';NBz='   ╱';yZz='\ )_';mDz='NG/S';ICz='}';cbz='es"';mKz='[😜]';QZz='etpr';tbz='='\''ps';xcz='Ogc/';BNz='Abou';lPz='++';oEz='[Q]=';gHz='; i+';yIz='[🌴]';uez='=${g';gWz='[33]';OWz='[17]';ROz='+-+"';pTz=' ██║';CCz='}Zzz';IZz='buil';VLz='inpu';HMz=' to ';EMz=' $nu';jWz='[36]';Mgz='rt';Lcz='Mess';Xbz='aiti';Qcz='.tel';MKz='[😊]';xQz='[♧]=';XIz=']───';Faz='_"';KUz='!\e[';ORz='m';ygz='09 $';SUz='-369';Odz='='\''ha';saz='MESS';sFz='😍';Dz='033[';Qaz='g}Te';NVz='28';fKz='=:';ldz='g/bo';VIz=' To ';RRz='p';JOz='══╝╚';wfz='{c}m';JEz='🌿';vVz='03';tcz=''\'';Uz';KCz='en()';mTz='═██║';ZVz='40';Wez='z$iz';rez='══╝\';JJz='[🍂]';aez='$nz$';idz='='\''wV';DPz='guag';ANz='3) e';COz='██║█';wQz='b';Taz='sern';oez='t   ';QMz='c}En';fPz='¥';xNz='╔███';yCz='𖥔 ݁';jQz='¥¥¥¥';jMz=' $te';NNz='ol';jFz='[₹]=';cFz=']=😂';Uez='$gz$';DCz='・・・・';ZWz='=+ #';HCz=' 0';ggz='xdg-';qUz='3';uIz='[🏵]';SRz='q';LKz='=₹';Rcz=''\'';Hz';Tbz='ORT ';Ocz='03'\'';';Ncz='='\''t8';MQz='》';oKz='[🤪]';QCz=')"';yTz='   \';xFz='[-]=';Pez='Zz$a';HOz='╝ ██';PCz='___/';IQz=',,,';kBz=')ノ"';xGz='──[E';APz='er()';vfz='}Z${';FWz='[77]';xdz='z$Dz';cRz='x';qfz='}23 ';ZJz='[🍼]';Bz='r';fHz='ext}';rOz='t yo';BFz='[W]=';pz='m]\0';NLz='[🐠]';dRz='[〕]=';dQz='□■';PTz='oji"';ZFz='["["';Saz='am U';eOz='̽Alp';DNz='{c}E';ELz='=4';WTz=' ${g';DQz=']=≠';XJz='[🍒]';Efz='}3  ';bWz='[28]';YIz='─► "';ZSz=']="\';kfz='}19 ';MXz='[03]';nQz='○●○○';mCz='�˖<�';GHz='rcas';EUz='nd a';nWz='[40]';jSz='[□■]';eHz='se_t';IRz='[•]=';YSz='[¡¡¡';Dbz='$VEN';Ycz='tt'\'';';PIz=': ${';Kbz='IST';LFz='[×]=';UIz='t${c';Vhz='ngua';UDz='●${n';rZz='__|-';abz='ew m';eGz='[5]=';KIz='done';eVz=']=45';pUz='1';WWz='[25]';KEz='[B]=';hWz='[34]';aIz='demo';SVz=']=33';tCz='݁"';mWz='[39]';Kez='z$Tz';rTz=' ╚═╝';sZz='---|';sbz=''\'';Gz';Qz='1;94';qCz='𖥔 ˖';qWz='[43]';SNz='{r}I';cGz='[4]=';Obz='$UP';mNz='█╗  ';Vcz='izDo';Sez='dz$e';dEz='🥏';xRz='[≡]=';aZz='__"';xZz='{c}/';EVz='19';GDz='�>.�';Lbz='VS: ';YRz='v';tBz='oodb';fIz='=(';ZUz='ol $';fYz='%M'\'')';ZTz='Emoj';fCz='    ';yFz='😗';KXz=']="1';RNz='E} $';tPz='』';ABz='good';dPz='/';hIz='=" "';Bbz='AME';jOz='uage';iYz='base';Fbz='L: $';Sfz='J${n';jXz='║"';jHz='lett';bHz='i<${';uEz='[T]=';ADz=' ˖<�';QWz='[19]';eFz=']=🙂';HLz='[🐔]';sKz='[🤑]';Jbz='BI_L';VGz='🤗';sdz='d '\'';';egz='}sim';SHz='per:';kIz='[🍃]';ofz='}21 ';cTz='main';jfz='8  $';ySz='》]=8';acz=''\'';iz';TJz='[🐣]';Ebz='DOR';qPz='】';JWz='[12]';WGz='[1]=';XLz='deco';BWz='08';IWz='[11]';RZz='op r';Ahz='/www';Lhz='d ty';CIz='}${l';PHz='wer:';Wgz='{g}4';FZz='fact';uBz='ye! ';dZz='@@${';iaz='" NA';NJz='[✨️]';qZz='  \_';FEz='rs=(';VMz='c}Ab';iCz='人___';Dez='Jz$K';nCz='�>.�';JFz='[+]=';fTz='███╗';agz='{y}D';lWz='[38]';LRz='k';tNz='█║██';Maz=' ---';paz='r Re';fRz='[」]=';cZz='   |';FVz='20';pFz='["&"';Cfz='{n}=';QDz='{n}"';Oez='$Yz$';Tez='z$fz';oMz='{c}Y';wTz='\e[0';TGz=']=🤑';PZz='=$(g';aQz=']=○●';hXz='ARK-';Hez='z$Pz';Wfz='L${n';XDz='te()';IIz='tter';iPz='÷';iIz='[🌿]';dcz='Yz='\''';CQz='×';aJz='=v';Acz='fz='\''';OYz='No i';fcz=''\'';jz';ZYz='UP=$';tRz='[×××';nDz='IMU.';Tgz='rtal';wdz='Bz$C';qSz='[♧♧♧';DKz='="]"';cCz='."';sNz='══╝█';cez='$oz$';OTz='c}Em';ZOz='tf "';Ghz='hint';Raz='legr';eMz='r Ch';STz='{c} ';kcz=''\'';Tz';qYz='getp';bdz='soDW';hez='z$vz';bZz='_(\ ';sgz=' 47 ';HYz='quie';nFz='[^]=';ybz='4A'\'';';RMz='code';yXz='}  ║';lLz=' the';oIz='[🍁]';yEz='[V]=';Phz='{y}O';vCz='˖<💛';Rez='$cz$';GOz='║ ╚═';UJz='=s';vWz='[48]';XNz='}. $';HJz='[🪸]';GRz='[☆]=';yNz='█╔██';GNz='ut $';iFz=']=🫠';RUz='"dx-';hPz='##';Caz='  /\';eWz='[31]';qVz=']=58';iEz='[N]=';pbz='9"'\'';';GMz='s"';YJz='=u';wZz='][ $';ydz='$Ez$';kbz='='\''A}';vQz='[♤]=';Fz='m'\''';LMz='ue; ';bRz='[】]=';NWz='[16]';kMz='st i';VNz='hoic';sPz='」';FQz=']=—';sOz='ur T';oZz='rnam';tgz='19 9';HXz='[59]';Ihz='o to';nEz='✨️';Gdz='cz='\''';lBz=' ࿔‧ ';IYz='t ht';WNz='e${y';GSz=']=₹';kOz=',\e[';Idz=''\'';az';nBz='˖𐦍˖';wUz='12';dz='6m'\''';Oz=''\''';pMz='ou c';jLz='"$le';FTz='.';HKz='=@';sUz='6';WOz='|X|"';pNz='   █';ERz='f';cVz=']=43';OQz=']=♥︎';KYz='" !=';OXz='[05]';yPz='₩';Ldz='tz='\''';aUz='{g}L';Jez='Rz$S';cIz='-A n';fMz='oice';GCz='exit';TRz='[@@]';lGz='🦖';Adz='e '\'';';Zfz='13  ';hdz=''\'';Rz';IPz='\n${';AYz='{p}╚';hHz='+ ))';Vbz='SER';SXz='[09]';AOz='{y}╚';lOz='0m\n';cUz='🔓"';sCz='.𖥔 ';Yfz='y}M$';Chz='tube';EQz=']=≡';SZz='o.pr';QBz='   (';bQz='○';Ufz='y}K$';Ucz='Qz='\''';dHz='erca';Fdz='v/'\'';';JSz='[《《]';bOz='104m';lNz='█╗██';SJz='=r';UXz='[¹]=';Bdz='kz='\''';UGz='[¡]=';NEz='🌱';scz='ing"';cSz='{"';aLz='numb';rSz='♧]=5';aXz='${p}';Xhz='�${n';lIz='=b';eez='z$rz';Hz='1;95';xBz='}-${';UKz='[🤩]';uOz='to E';gSz='[°°°';GXz='[58]';PNz='bye';TXz='[76]';kXz='"  $';QHz=']'\'' '\''';vdz='z$z$';kEz='[O]=';eKz='[😙]';rcz='wz='\''';VUz='then';OEz='[D]=';LEz='🍃';lMz='1) e';xIz='=h';gJz='=y';VWz='[24]';CGz='["]=';HQz=']=,,';CDz='˖"';mQz='¤¤¤¤';gQz='♡♡♡♡';OUz='ss';kCz='づ"';aNz='y ag';oPz='「';cQz='°°°';qLz='="$l';kgz='/t.m';Cgz='date';uSz='[■■■';lSz='•]=2';GVz='21';USz='[▪︎▪';FHz='uppe';ONz='0) e';Cz='r='\''\';vRz='[≠]=';uWz='[47]';Lgz='rt${';gZz=' 👋 ';dBz='5';QQz='♣︎';AUz='e[10';YMz='c}Ba';JDz='𑁍ࠬܓ';mVz='54';aaz='cted';IOz='╔╝"';XZz='+=",';kHz='er="';PDz='r}●$';fLz='{num';Mz='n='\''\';eEz='[L]=';dSz='[€€]';rfz='}X${';dDz='git ';dez='pz$q';aHz='=0; ';afz='N${n';FKz='="!"';bgz='e Pa';tfz='{y}Y';yDz='i() ';fZz='}Hey';VRz='[【]=';QOz='+-+-';BSz='"!"';PQz='◆';Bfz='y}B$';FSz='[,,,';wz='0m'\''';NSz='"("';UOz='|A|R';LBz='֢ ‧࿔';RHz='[:up';Ofz='H${n';REz='🍀';EEz='ette';hQz='◇◇◇◇';tFz='["("';Qdz='nz='\''';DIz='rs[$';EIz='er]}';rbz='8373';OZz='LIST';Nfz='}7  ';pZz='e${c';Ccz=''\'';Cz';uLz='ed${';LUz=' Pas';YTz='den"';Pdz='nk'\'';';jTz='██╔╝';rHz='[ ${';mPz='+';xLz='ji]─';tSz='¥]=6';dOz=';98m';jGz='🦕';YKz='[😗]';wNz='█║"';tXz='erne';gaz='r Us';FGz=']=😙';mHz='perc';ez='D='\''\';gdz='&> /';FYz='pide';Rhz='ng $';eaz='} Te';Mfz='{y}G';dLz='nput';caz='er o';bcz='='\''="';VKz='="("';MOz='  ╚═';YNz='{g}P';oaz='port';uHz='ter]';Jfz='{g}5';IVz='23';raz='R';mfz='{g}2';fEz='🎑';Eaz='O (_';rUz='4';Xz='⎯꯭̽�';eRz='y';Thz='l ${';Lfz='6  $';eDz='clon';eNz='esac';AHz=' Tex';Zaz='onta';sJz='=/';QIz='p}$c';pGz='🐌';mdz=''\'';Dz';uZz='  __';mcz='IM'\'';';ugz=' 13 ';nYz='e +"';RDz='2';Qgz='al) ';qOz='m̽Co';Ngz='Upda';fWz='[32]';dbz='z="';bUz='age ';TZz='oduc';Vez='bz$h';MFz='⛅️';ZKz='=-';oGz='[0]=';sEz='[S]=';sBz='{g}G';xfz='ore.';rYz='rop ';bNz='ain.';JVz='24';sez='{y}S';NRz='[¥]=';TPz='°○°○';bDz='bann';Uhz='y}La';pez='  ║\';xSz='[》》》';XGz='🐵';fFz='[@]=';IBz=' ֶָ֢';Dgz=' cho';VYz='p 2.';Zbz='or f';pXz='heck';igz=' htt';RBz='${b}';daz='n${g';jz='1m'\''';SYz='m(To';aWz='gg';iDz='thub';NCz='    ';bXz='╔═══';WIz='Back';VPz='♧';lcz='='\''Tt';OJz='=p';Uz='m[\0';SQz=']=□';Ffz='D${n';HGz='🥲';Sz='1;96';FLz='[🦝]';TEz='🌺';tGz='er3';MTz=' " $';VFz='["<"';mYz='TM=$';lJz='[⛅️]';nPz='【';JXz='[011';waz='SER ';QKz='[🥰]';fdz='lz='\''';DYz='wget';EFz='🌌';BPz='t Nu';gGz='[6]=';dWz='[30]';Fez='$Mz$';nez='c}║ ';pcz='='\''cu';nJz='[🌠]';az='92m]';dIz='um_t';Tdz='='\''{y';sVz='["1"';WBz='7"';dCz='   /';Cbz='OR: ';rJz='[😃]';bKz='=€';uUz='10';wgz='7 03';uaz='〄 SI';vIz='=g';hcz='SA'\'';';DGz='😚';UTz='ol A';NDz='load';Wz=';00m';PXz='[06]';eYz=' %H:';GKz='[🙃]';oFz='😇';BQz=']=××';MGz='["\"';HDz='˖⋅˚₊';Haz='/\--';KHz='o "$';UZz='t.cp';HPz='e[0m';mgz='RK_H';gfz='{y}Q';CRz='[¤]=';EXz='[56]';WLz='t=$1';VCz='•⁠${';XTz='}Hid';hMz='t';fgz='u${c';iLz=' -z ';obz='='\''92';nZz=' Use';jVz=']=50';FCz='ྀ"';Hgz='de${';vJz='[😆]';Yez='kz$l';oWz='[41]';CBz=') {';Baz='\ "';LLz='[🦖]';ASz='[—]=';KGz='[~]=';Bhz='.you';tdz='eval';PPz='ol()';BTz='¤¤]=';mUz='enco';yOz='\n"';pBz=' ‧࿔ ';RCz='"   ';bIz='ji()';lYz='ELL)';SEz='[F]=';udz=' "$A';gFz='🙃';odz=' P'\'';';sDz=' ins';JIz='fi';uGz='read';Mbz='$VS';dfz='15  ';IMz='back';sHz='ers[';YGz='[2]=';uNz='██╗ ';SGz='["$"';Az='clea';jUz='try ';FJz='[🎑]';cEz='[K]=';sz='[96m';aEz='[J]=';yVz='06';FXz='[57]';OHz='[:lo';rz='lm='\''';ndz='='\''-X';nSz='♡]=3';Icz='='\''sI';LHz='text';qGz='[.]=';GJz='=l';cXz='╗"';RVz='32';MZz='e)';oSz='[◇◇◇';fXz='>  $';rdz=''\'';bz';pIz='=d';URz='[++]';AJz='=i';JYz=' "$?';VQz='☆☆☆';dFz='["!"';YDz='dxne';QNz='*) e';bz='\033';VEz='🏵';QEz='[E]=';wLz=' Emo';iUz='ase ';QGz='["}"';BJz='[🦠]';GPz='r!!\';QVz='31';xYz='OR=$';sXz=' Int';jRz='g';oBz='˚ֶָ֢';iNz='{c}█';iOz='Lang';CPz=' Lan';hDz='//gi';rXz='Your';BOz='════';FRz='[▪︎]';fSz=']="$';YWz='[27]';GFz='🔥';aFz=']=🤣';oJz='=÷';LGz='😛';LSz='*';ZHz='(( i';CYz='}\n"';Vaz='{c}"';Jdz='='\''ag';Bez='z$Hz';Qhz='peni';Mdz='s Fo';aMz='{n}0';lZz='p}En';Jhz=' Men';DVz='18';BEz='decl';rRz='[±]=';WKz='[😘]';bEz='🦠';eZz='c}| ';NOz='╝ ╚═';cOz='\e[1';qbz='Nz='\''';uMz='i';MIz='{g}Y';ENz='moji';EPz='e,\e';OOz='╝"';qDz='IMU';aYz='(dat';kSz='[°°]';iez='$wz"';vgz='21 4';WHz='d_te';rIz='=e';OFz='🌠';faz='am${';BMz='umbe';JZz='d.ve';LCz=' {';DXz='[55]';xHz='en';nOz='[104';DRz='e';jEz='🍂';Gcz='m.or';aSz='[•••';hOz='oji ';Iez='$Qz$';UEz='[G]=';dTz='pass';GGz='[,]=';WUz='{y}U';wJz='="<"';HWz='[10]';AWz='07';Qez='z$bz';yMz='ji';hBz='�˖˚ֶ';XSz=']=~';FMz='mber';OKz='[😇]';wEz='[U]=';NIz='our ';gPz='#';iHz='; do';lVz='53';wWz='[49]';rDz='bash';nKz='="\"';aVz='41';lCz='   �';nLz='ded+';TDz='${n}';KVz='25';BZz=' ro.';YBz='"';cKz='[😚]';CXz='[54]';NMz='g}[$';hbz='Pz='\''';KMz='e tr';RTz='ode';UNz='id c';cfz='y}O$';SMz='{n}2';UYz='07\n';YFz=']=😅';LVz='26';rNz='█╔══';Egz='ice';MSz='[《]=';lRz='[‰]=';BCz=')${c';Mez='Vz$W';BRz='d';CUz='[1;7';PJz='[🦋]';AXz='[52]';ncz='hz='\''';PUz='[ ($';Lez='$Uz$';ZCz='c})=';jdz='_b'\'';';PLz='[🐌]';gz='3m'\''';YXz='dx "';ECz='ཐི|ཋ';QTz='{n}5';RJz='[🐰]';
-eval "$Az$Bz$z$Cz$Dz$Ez$Fz$z$Gz$Dz$Hz$Fz$z$Iz$Dz$Jz$Fz$z$Kz$Dz$Lz$Fz$z$Mz$Dz$Nz$Oz$z$Pz$Dz$Qz$Fz$z$Rz$Dz$Sz$Fz$z$Tz$Dz$Lz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$z$ez$Dz$Lz$Uz$Vz$Wz$fz$Zz$az$bz$cz$gz$z$hz$Dz$Lz$Uz$Vz$Wz$iz$Zz$az$bz$cz$jz$z$kz$Dz$Lz$Uz$Vz$Wz$lz$Zz$az$bz$cz$mz$z$nz$Dz$Lz$Uz$Vz$Wz$oz$Dz$Lz$pz$qz$mz$z$rz$bz$sz$tz$tz$tz$bz$uz$bz$sz$tz$tz$tz$bz$vz$wz$z$xz$bz$yz$tz$tz$tz$bz$uz$bz$yz$tz$tz$tz$bz$vz$wz$z$ABz$BBz$CBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$XBz$YBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$ZBz$aBz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$GBz$eBz$fBz$gBz$hBz$iBz$jBz$NBz$OBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$XBz$YBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$ZBz$kBz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$XBz$YBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$ZBz$aBz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$XBz$YBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$ZBz$kBz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$GBz$eBz$fBz$gBz$hBz$iBz$jBz$NBz$OBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$XBz$YBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$ZBz$aBz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$GBz$MBz$lBz$mBz$nBz$oBz$pBz$NBz$OBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$XBz$YBz$z$DBz$EBz$PBz$MBz$MBz$MBz$MBz$MBz$ZBz$kBz$z$DBz$z$bBz$cBz$dBz$z$DBz$EBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$ACz$vBz$BCz$CCz$DCz$ECz$FCz$z$DBz$z$GCz$HCz$z$ICz$z$JCz$KCz$LCz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$MCz$NCz$OCz$PCz$QCz$z$DBz$EBz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$aCz$bCz$cCz$z$DBz$EBz$RCz$dCz$eCz$fCz$gCz$z$DBz$EBz$RCz$hCz$iCz$jCz$kCz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$MCz$NCz$OCz$PCz$QCz$z$DBz$EBz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$lCz$mCz$nCz$oCz$z$DBz$EBz$RCz$dCz$eCz$fCz$gCz$z$DBz$EBz$RCz$hCz$iCz$jCz$kCz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$MCz$NCz$OCz$PCz$QCz$z$DBz$EBz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$pCz$qCz$rCz$sCz$tCz$z$DBz$EBz$RCz$dCz$eCz$fCz$gCz$z$DBz$EBz$RCz$hCz$iCz$jCz$kCz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$MCz$NCz$OCz$PCz$QCz$z$DBz$EBz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$lCz$uCz$vCz$wCz$xCz$z$DBz$EBz$RCz$dCz$eCz$fCz$gCz$z$DBz$EBz$RCz$hCz$iCz$jCz$kCz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$MCz$NCz$OCz$PCz$QCz$z$DBz$EBz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$pCz$yCz$ADz$BDz$uCz$CDz$z$DBz$EBz$RCz$dCz$eCz$fCz$gCz$z$DBz$EBz$RCz$hCz$iCz$jCz$kCz$z$DBz$z$bBz$cBz$dBz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$MCz$NCz$OCz$PCz$QCz$z$DBz$EBz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$DDz$EDz$FDz$yCz$ADz$GDz$uCz$HDz$IDz$YBz$z$DBz$EBz$RCz$dCz$eCz$fCz$gCz$z$DBz$EBz$RCz$hCz$iCz$jCz$kCz$z$DBz$z$bBz$cBz$dBz$z$DBz$EBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$ACz$vBz$BCz$CCz$DCz$JDz$YBz$z$DBz$z$GCz$HCz$z$ICz$z$KDz$LDz$MDz$z$NDz$ODz$z$Az$Bz$z$DBz$EBz$qBz$PDz$QDz$z$bBz$cBz$RDz$z$Az$Bz$z$DBz$EBz$qBz$PDz$SDz$TDz$YBz$z$bBz$cBz$RDz$z$Az$Bz$z$DBz$EBz$qBz$PDz$SDz$RBz$UDz$VDz$z$bBz$cBz$RDz$z$ICz$z$WDz$XDz$LCz$z$Az$Bz$z$YDz$ZDz$aDz$z$bDz$cDz$z$dDz$eDz$fDz$gDz$hDz$iDz$jDz$kDz$lDz$mDz$nDz$oDz$z$pDz$qDz$z$rDz$sDz$tDz$uDz$z$ICz$z$vDz$wDz$CBz$z$xDz$yDz$AEz$z$BEz$CEz$DEz$EEz$FEz$z$GEz$HEz$z$IEz$JEz$z$KEz$LEz$z$MEz$NEz$z$OEz$PEz$z$QEz$REz$z$SEz$TEz$z$UEz$VEz$z$WEz$XEz$z$YEz$ZEz$z$aEz$bEz$z$cEz$dEz$z$eEz$fEz$z$gEz$hEz$z$iEz$jEz$z$kEz$lEz$z$mEz$nEz$z$oEz$pEz$z$qEz$rEz$z$sEz$tEz$z$uEz$vEz$z$wEz$xEz$z$yEz$AFz$z$BFz$CFz$z$DFz$EFz$z$FFz$GFz$z$HFz$IFz$z$JFz$KFz$z$LFz$MFz$z$NFz$OFz$z$PFz$QFz$z$RFz$SFz$z$TFz$UFz$z$VFz$WFz$z$XFz$YFz$z$ZFz$aFz$z$bFz$cFz$z$dFz$eFz$z$fFz$gFz$z$hFz$iFz$z$jFz$kFz$z$lFz$mFz$z$nFz$oFz$z$pFz$qFz$z$rFz$sFz$z$tFz$uFz$z$vFz$wFz$z$xFz$yFz$z$AGz$BGz$z$CGz$DGz$z$EGz$FGz$z$GGz$HGz$z$IGz$JGz$z$KGz$LGz$z$MGz$NGz$z$OGz$PGz$z$QGz$RGz$z$SGz$TGz$z$UGz$VGz$z$WGz$XGz$z$YGz$ZGz$z$aGz$bGz$z$cGz$dGz$z$eGz$fGz$z$gGz$hGz$z$iGz$jGz$z$kGz$lGz$z$mGz$nGz$z$oGz$pGz$z$qGz$rGz$z$sGz$z$bDz$tGz$z$uGz$vGz$wGz$xGz$yGz$AHz$BHz$CHz$DHz$EHz$z$FHz$GHz$HHz$IHz$JHz$KHz$LHz$MHz$NHz$OHz$PHz$QHz$RHz$SHz$THz$z$UHz$VHz$WHz$XHz$YBz$z$YHz$ZHz$aHz$bHz$cHz$dHz$eHz$fHz$gHz$hHz$iHz$z$jHz$kHz$lHz$mHz$nHz$LHz$oHz$pHz$z$qHz$rHz$jHz$sHz$tHz$uHz$vHz$wHz$xHz$z$UHz$VHz$WHz$XHz$yHz$AIz$BIz$LHz$CIz$EEz$DIz$jHz$EIz$FIz$z$GIz$z$UHz$VHz$WHz$XHz$yHz$AIz$BIz$LHz$HIz$IIz$FIz$z$JIz$z$KIz$z$DBz$z$DBz$z$DBz$EBz$qBz$LIz$MIz$NIz$OIz$PIz$QIz$RIz$SIz$TIz$UIz$VDz$z$DBz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$VIz$WIz$XIz$YIz$z$vDz$ZIz$z$ICz$z$aIz$bIz$LCz$z$BEz$CEz$cIz$dIz$eIz$IIz$fIz$z$gIz$hIz$z$iIz$jIz$z$kIz$lIz$z$mIz$nIz$z$oIz$pIz$z$qIz$rIz$z$sIz$tIz$z$uIz$vIz$z$wIz$xIz$z$yIz$AJz$z$BJz$CJz$z$DJz$EJz$z$FJz$GJz$z$HJz$IJz$z$JJz$KJz$z$LJz$MJz$z$NJz$OJz$z$PJz$QJz$z$RJz$SJz$z$TJz$UJz$z$VJz$WJz$z$XJz$YJz$z$ZJz$aJz$z$bJz$cJz$z$dJz$eJz$z$fJz$gJz$z$hJz$iJz$z$jJz$kJz$z$lJz$mJz$z$nJz$oJz$z$pJz$qJz$z$rJz$sJz$z$tJz$uJz$z$vJz$wJz$z$xJz$yJz$z$AKz$BKz$z$CKz$DKz$z$EKz$FKz$z$GKz$HKz$z$IKz$JKz$z$KKz$LKz$z$MKz$NKz$z$OKz$PKz$z$QKz$RKz$z$SKz$TKz$z$UKz$VKz$z$WKz$XKz$z$YKz$ZKz$z$aKz$bKz$z$cKz$dKz$z$eKz$fKz$z$gKz$hKz$z$iKz$jKz$z$kKz$lKz$z$mKz$nKz$z$oKz$pKz$z$qKz$rKz$z$sKz$tKz$z$uKz$vKz$z$wKz$xKz$z$yKz$ALz$z$BLz$CLz$z$DLz$ELz$z$FLz$GLz$z$HLz$ILz$z$JLz$KLz$z$LLz$MLz$z$NLz$OLz$z$PLz$QLz$z$RLz$SLz$z$sGz$z$TLz$ULz$LCz$z$VLz$WLz$z$XLz$YLz$ZLz$z$YHz$aLz$bLz$cLz$dLz$iHz$z$jHz$eLz$fLz$gLz$jHz$hLz$aLz$EIz$z$qHz$iLz$jLz$IIz$kLz$lLz$mLz$z$XLz$nLz$oLz$aLz$pLz$z$GIz$z$XLz$nLz$qLz$EEz$rLz$z$JIz$z$KIz$z$DBz$EBz$qBz$LIz$MIz$NIz$OIz$PIz$sLz$tLz$uLz$vLz$z$ICz$z$bDz$tGz$z$uGz$vGz$wGz$xGz$yGz$wLz$xLz$yLz$AMz$BMz$CMz$z$DBz$z$DBz$z$TLz$DMz$EMz$FMz$GMz$z$DBz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$HMz$IMz$XIz$YIz$z$vDz$ZIz$z$ICz$z$JMz$KMz$LMz$MMz$z$bDz$tGz$z$DBz$EBz$qBz$NMz$OMz$UCz$PMz$QMz$RMz$YBz$z$DBz$EBz$qBz$NMz$SMz$UCz$PMz$TMz$RMz$YBz$z$DBz$EBz$qBz$NMz$UMz$UCz$PMz$VMz$WMz$z$DBz$EBz$qBz$NMz$XMz$UCz$PMz$YMz$ZMz$z$DBz$EBz$qBz$NMz$aMz$UCz$PMz$bMz$cMz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$dMz$eMz$fMz$XIz$YIz$gMz$hMz$z$iMz$jMz$kMz$mLz$z$lMz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$rMz$sMz$z$DBz$z$bBz$tMz$z$xDz$uMz$z$vMz$z$wMz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$xMz$sMz$z$DBz$z$bBz$tMz$z$aIz$yMz$z$vMz$z$ANz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$BNz$CNz$z$DBz$z$bBz$tMz$z$DBz$EBz$qBz$nMz$DNz$ENz$FNz$GNz$HNz$INz$JNz$z$bBz$KNz$z$vMz$z$LNz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$WIz$YBz$z$DBz$z$bBz$tMz$z$MNz$NNz$z$vMz$z$ONz$mMz$z$ABz$PNz$z$vMz$z$QNz$mMz$z$DBz$EBz$qBz$RNz$SNz$TNz$UNz$VNz$WNz$XNz$YNz$ZNz$KMz$aNz$bNz$YBz$z$DBz$z$bBz$cNz$dNz$z$eNz$z$KIz$z$ICz$z$bDz$fNz$CBz$z$Az$Bz$z$DBz$EBz$qBz$PDz$SDz$RBz$UDz$VDz$z$DBz$gNz$z$DBz$EBz$PBz$MBz$hNz$iNz$jNz$kNz$lNz$mNz$nNz$oNz$pNz$qNz$z$DBz$EBz$PBz$MBz$hNz$iNz$rNz$sNz$tNz$uNz$jNz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$iNz$jNz$kNz$tNz$xNz$yNz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$AOz$BOz$COz$tNz$DOz$EOz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$FOz$jNz$COz$tNz$GOz$HOz$DOz$jNz$IOz$z$DBz$EBz$PBz$MBz$hNz$AOz$BOz$JOz$KOz$LOz$MOz$NOz$BOz$OOz$z$DBz$EBz$POz$GBz$MBz$MBz$MBz$QOz$QOz$QOz$QOz$ROz$z$DBz$EBz$FBz$GBz$MBz$MBz$MBz$SOz$TOz$UOz$VOz$WOz$z$DBz$EBz$POz$GBz$MBz$MBz$MBz$QOz$QOz$QOz$QOz$XOz$QDz$z$YOz$ZOz$MBz$MBz$MBz$aOz$bOz$cOz$dOz$eOz$fOz$gOz$hOz$iOz$jOz$kOz$lOz$YBz$z$YOz$ZOz$MBz$MBz$mOz$nOz$oOz$pOz$qOz$AIz$rOz$sOz$tOz$uOz$ENz$vOz$wOz$xOz$VDz$z$YOz$ZOz$yOz$z$DBz$gNz$z$ICz$z$bDz$APz$LCz$z$Az$Bz$z$DBz$EBz$qBz$PDz$SDz$RBz$UDz$VDz$z$DBz$gNz$z$DBz$EBz$PBz$MBz$hNz$iNz$jNz$kNz$lNz$mNz$nNz$oNz$pNz$qNz$z$DBz$EBz$PBz$MBz$hNz$iNz$rNz$sNz$tNz$uNz$jNz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$iNz$jNz$kNz$tNz$xNz$yNz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$AOz$BOz$COz$tNz$DOz$EOz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$FOz$jNz$COz$tNz$GOz$HOz$DOz$jNz$IOz$z$DBz$EBz$PBz$MBz$hNz$AOz$BOz$JOz$KOz$LOz$MOz$NOz$BOz$OOz$z$DBz$EBz$POz$GBz$MBz$MBz$MBz$QOz$QOz$QOz$QOz$ROz$z$DBz$EBz$FBz$GBz$MBz$MBz$MBz$SOz$TOz$UOz$VOz$WOz$z$DBz$EBz$POz$GBz$MBz$MBz$MBz$QOz$QOz$QOz$QOz$XOz$QDz$z$YOz$ZOz$MBz$MBz$MBz$aOz$bOz$cOz$dOz$eOz$fOz$BPz$FMz$CPz$DPz$EPz$wOz$JNz$z$YOz$ZOz$MBz$MBz$mOz$nOz$oOz$pOz$qOz$AIz$rOz$sOz$tOz$FPz$BMz$GPz$HPz$IPz$vLz$z$YOz$ZOz$yOz$z$DBz$gNz$z$ICz$z$bDz$JPz$CBz$z$Az$Bz$z$DBz$EBz$qBz$PDz$SDz$RBz$UDz$VDz$z$DBz$gNz$z$DBz$EBz$PBz$MBz$hNz$iNz$jNz$kNz$lNz$mNz$nNz$oNz$pNz$qNz$z$DBz$EBz$PBz$MBz$hNz$iNz$rNz$sNz$tNz$uNz$jNz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$iNz$jNz$kNz$tNz$xNz$yNz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$AOz$BOz$COz$tNz$DOz$EOz$vNz$pNz$wNz$z$DBz$EBz$PBz$MBz$hNz$FOz$jNz$COz$tNz$GOz$HOz$DOz$jNz$IOz$z$DBz$EBz$PBz$MBz$hNz$AOz$BOz$JOz$KOz$LOz$MOz$NOz$BOz$OOz$z$DBz$EBz$POz$GBz$MBz$MBz$MBz$QOz$QOz$QOz$QOz$ROz$z$DBz$EBz$FBz$GBz$MBz$MBz$MBz$SOz$TOz$UOz$VOz$WOz$z$DBz$EBz$POz$GBz$MBz$MBz$MBz$QOz$QOz$QOz$QOz$XOz$QDz$z$YOz$ZOz$MBz$MBz$MBz$aOz$bOz$cOz$dOz$eOz$fOz$KPz$LPz$CPz$DPz$EPz$wOz$JNz$z$YOz$ZOz$MBz$MBz$mOz$nOz$oOz$pOz$qOz$AIz$rOz$sOz$tOz$MPz$NPz$OPz$HPz$IPz$vLz$z$YOz$ZOz$yOz$z$DBz$gNz$z$ICz$z$MNz$PPz$LCz$z$QPz$RPz$CBz$z$BEz$CEz$DEz$EEz$FEz$z$GEz$SPz$z$IEz$TPz$z$KEz$UPz$z$MEz$VPz$z$OEz$WPz$z$QEz$XPz$z$SEz$YPz$z$UEz$ZPz$z$WEz$aPz$z$YEz$bPz$z$aEz$cPz$z$cEz$dPz$z$eEz$ePz$z$gEz$fPz$z$iEz$gPz$z$kEz$hPz$z$mEz$iPz$z$oEz$jPz$z$qEz$kPz$z$sEz$lPz$z$uEz$mPz$z$wEz$nPz$z$yEz$oPz$z$BFz$pPz$z$DFz$qPz$z$FFz$rPz$z$HFz$sPz$z$JFz$tPz$z$LFz$uPz$z$NFz$vPz$z$PFz$wPz$z$RFz$xPz$z$TFz$yPz$z$VFz$AQz$z$XFz$BQz$CQz$z$ZFz$DQz$z$bFz$EQz$z$dFz$FQz$z$fFz$GQz$z$hFz$HQz$z$jFz$IQz$z$lFz$JQz$z$nFz$KQz$z$pFz$LQz$z$rFz$MQz$z$tFz$NQz$z$vFz$OQz$z$xFz$PQz$z$AGz$QQz$z$CGz$RQz$z$EGz$SQz$z$GGz$TQz$z$IGz$UQz$ZPz$z$KGz$VQz$z$MGz$WQz$YPz$z$OGz$XQz$YQz$z$QGz$ZQz$z$SGz$aQz$bQz$z$UGz$cQz$z$oGz$dQz$z$WGz$eQz$z$YGz$fQz$z$aGz$gQz$z$cGz$hQz$z$eGz$iQz$z$gGz$jQz$z$iGz$kQz$SPz$z$kGz$lQz$z$mGz$mQz$XPz$z$qGz$nQz$oQz$z$sGz$z$bDz$pQz$z$uGz$vGz$wGz$xGz$yGz$AHz$BHz$CHz$DHz$EHz$z$FHz$GHz$HHz$IHz$JHz$KHz$LHz$MHz$NHz$OHz$PHz$QHz$RHz$SHz$THz$z$UHz$VHz$WHz$XHz$YBz$z$YHz$ZHz$aHz$bHz$cHz$dHz$eHz$fHz$gHz$hHz$iHz$z$jHz$kHz$lHz$mHz$nHz$LHz$oHz$pHz$z$qHz$rHz$jHz$sHz$tHz$uHz$vHz$wHz$xHz$z$UHz$VHz$WHz$XHz$yHz$AIz$BIz$LHz$CIz$EEz$DIz$jHz$EIz$FIz$z$GIz$z$UHz$VHz$WHz$XHz$yHz$AIz$BIz$LHz$HIz$IIz$FIz$z$JIz$z$KIz$z$DBz$z$DBz$z$DBz$EBz$qBz$LIz$MIz$NIz$OIz$PIz$QIz$RIz$SIz$TIz$UIz$VDz$z$DBz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$VIz$WIz$XIz$YIz$z$MNz$NNz$z$ICz$z$qQz$RPz$CBz$z$BEz$CEz$cIz$dIz$eIz$IIz$fIz$z$rQz$sQz$z$tQz$uQz$z$vQz$wQz$z$xQz$yQz$z$ARz$BRz$z$CRz$DRz$z$UGz$ERz$z$FRz$vIz$z$GRz$HRz$z$IRz$uMz$z$JRz$KRz$z$RFz$LRz$z$xFz$MRz$z$NRz$ORz$z$PRz$mLz$z$QRz$MJz$z$NFz$RRz$z$fFz$SRz$z$TRz$SJz$z$URz$UJz$z$JFz$hMz$z$VRz$WRz$z$XRz$YRz$z$ZRz$aRz$z$bRz$cRz$z$dRz$eRz$z$fRz$gRz$z$hRz$iRz$jRz$z$kRz$CQz$z$lRz$iPz$z$mRz$nRz$z$oRz$dPz$z$pRz$qRz$z$rRz$sRz$z$tRz$uRz$YBz$z$vRz$wRz$z$xRz$yRz$z$ASz$BSz$z$CSz$jPz$z$DSz$ESz$z$FSz$GSz$z$GGz$HSz$z$ISz$PKz$z$JSz$RKz$z$KSz$LSz$z$MSz$NSz$z$OSz$XKz$z$PSz$ePz$z$QSz$bKz$z$RSz$dKz$z$ARz$SSz$z$TSz$hKz$z$USz$VSz$jKz$z$WSz$XSz$z$YSz$ZSz$YBz$z$aSz$bSz$cSz$z$dSz$rKz$z$eSz$fSz$YBz$z$gSz$hSz$iSz$z$jSz$QLz$z$kSz$xKz$z$aSz$lSz$z$mSz$nSz$z$oSz$pSz$z$qSz$rSz$z$sSz$tSz$z$uSz$vSz$wSz$z$xSz$ySz$z$ATz$BTz$CTz$z$DTz$ETz$FTz$z$sGz$z$GTz$ODz$z$VLz$WLz$z$XLz$YLz$ZLz$z$YHz$aLz$bLz$cLz$dLz$iHz$z$jHz$eLz$fLz$gLz$jHz$hLz$aLz$EIz$z$qHz$iLz$jLz$IIz$kLz$lLz$mLz$z$XLz$nLz$oLz$aLz$pLz$z$GIz$z$XLz$nLz$qLz$EEz$rLz$z$JIz$z$KIz$z$DBz$EBz$qBz$LIz$MIz$NIz$OIz$PIz$sLz$tLz$uLz$vLz$z$ICz$z$bDz$pQz$z$uGz$vGz$wGz$xGz$yGz$HTz$ITz$JTz$KTz$aLz$LTz$z$DBz$z$DBz$z$GTz$MTz$aLz$NTz$z$DBz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$HMz$IMz$XIz$YIz$z$MNz$NNz$z$ICz$z$JMz$KMz$LMz$MMz$z$bDz$pQz$z$DBz$EBz$qBz$NMz$OMz$UCz$PMz$QMz$RMz$YBz$z$DBz$EBz$qBz$NMz$SMz$UCz$PMz$TMz$RMz$YBz$z$DBz$EBz$qBz$NMz$UMz$UCz$PMz$VMz$WMz$z$DBz$EBz$qBz$NMz$XMz$UCz$PMz$OTz$PTz$z$DBz$EBz$qBz$NMz$QTz$UCz$PMz$YMz$ZMz$z$DBz$EBz$qBz$NMz$aMz$UCz$PMz$bMz$cMz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$dMz$eMz$fMz$XIz$YIz$gMz$hMz$z$iMz$jMz$kMz$mLz$z$lMz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$rMz$sMz$z$DBz$z$bBz$tMz$z$QPz$RTz$z$vMz$z$wMz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$xMz$sMz$z$DBz$z$bBz$tMz$z$qQz$RTz$z$vMz$z$ANz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$BNz$CNz$z$DBz$z$bBz$tMz$z$DBz$EBz$qBz$nMz$STz$TTz$UTz$VTz$WTz$XTz$YTz$z$bBz$KNz$z$vMz$z$LNz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$ZTz$aTz$z$DBz$z$bBz$tMz$z$vDz$ZIz$z$vMz$z$bTz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$WIz$YBz$z$DBz$z$bBz$tMz$z$cTz$z$vMz$z$ONz$mMz$z$ABz$PNz$z$vMz$z$QNz$mMz$z$DBz$EBz$qBz$RNz$SNz$TNz$UNz$VNz$WNz$XNz$YNz$ZNz$KMz$aNz$bNz$YBz$z$DBz$z$bBz$cNz$dNz$z$eNz$z$KIz$z$ICz$z$dTz$eTz$AEz$z$JMz$KMz$LMz$MMz$z$Az$Bz$z$DBz$z$DBz$EBz$FBz$GBz$MBz$jNz$uNz$nNz$uNz$jNz$fTz$jNz$fTz$YBz$z$DBz$EBz$FBz$GBz$MBz$gTz$hTz$gTz$hTz$gTz$iTz$gTz$iTz$YBz$z$DBz$EBz$FBz$GBz$MBz$jNz$jTz$jNz$kTz$jNz$fTz$jNz$fTz$YBz$z$DBz$EBz$POz$GBz$MBz$gTz$lTz$gTz$mTz$nTz$mTz$nTz$mTz$YBz$z$DBz$EBz$POz$GBz$MBz$oTz$MBz$oTz$pTz$jNz$kTz$jNz$kTz$YBz$z$DBz$EBz$POz$GBz$MBz$qTz$MBz$qTz$rTz$nTz$iTz$nTz$iTz$TDz$YBz$z$DBz$z$YOz$ZOz$MBz$MBz$MBz$MBz$aOz$bOz$cOz$dOz$sTz$tTz$uTz$vTz$wTz$xTz$z$YOz$ZOz$MBz$MBz$yTz$AUz$BUz$CUz$DUz$EUz$FUz$GUz$HUz$IUz$JUz$KUz$lOz$VBz$YBz$z$YOz$ZOz$yOz$z$DBz$gNz$z$uGz$vGz$wGz$xGz$yGz$LUz$MUz$CHz$NUz$OUz$z$qHz$PUz$dTz$QUz$RUz$GTz$SUz$TUz$UUz$z$VUz$z$DBz$z$DBz$EBz$qBz$nMz$WUz$XUz$YUz$TTz$ZUz$aUz$IUz$bUz$cUz$z$DBz$z$bBz$dUz$z$MNz$NNz$z$GIz$z$DBz$z$DBz$EBz$qBz$RNz$SNz$TNz$eUz$uTz$fUz$gUz$WTz$hUz$iUz$jUz$kUz$lUz$z$DBz$z$bBz$tMz$z$JIz$z$KIz$z$ICz$z$mUz$nUz$LCz$z$BEz$CEz$DEz$EEz$FEz$z$GEz$oUz$z$IEz$pUz$z$KEz$RDz$z$MEz$qUz$z$OEz$rUz$z$QEz$dBz$z$SEz$sUz$z$UEz$wSz$z$WEz$tUz$z$YEz$CTz$z$aEz$uUz$z$cEz$vUz$z$eEz$wUz$z$gEz$xUz$z$iEz$yUz$z$kEz$AVz$z$mEz$BVz$z$oEz$CVz$z$qEz$DVz$z$sEz$EVz$z$uEz$FVz$z$wEz$GVz$z$yEz$HVz$z$BFz$IVz$z$DFz$JVz$z$FFz$KVz$z$HFz$LVz$z$JFz$MVz$z$LFz$NVz$z$NFz$OVz$z$PFz$PVz$z$RFz$QVz$z$TFz$RVz$z$VFz$SVz$z$XFz$TVz$z$ZFz$UVz$z$bFz$VVz$z$dFz$WVz$z$fFz$XVz$z$hFz$YVz$z$jFz$ZVz$z$lFz$aVz$z$nFz$bVz$z$pFz$cVz$z$rFz$dVz$z$tFz$eVz$z$vFz$fVz$z$xFz$gVz$z$AGz$hVz$z$CGz$iVz$z$EGz$jVz$z$GGz$kVz$z$IGz$lVz$z$KGz$mVz$z$MGz$nVz$z$OGz$oVz$z$QGz$pVz$z$SGz$qVz$z$UGz$rVz$z$sVz$tVz$z$YGz$uVz$z$aGz$vVz$z$cGz$wVz$z$eGz$xVz$z$gGz$yVz$z$iGz$AWz$z$kGz$BWz$z$mGz$CWz$z$oGz$DWz$z$qGz$EWz$z$sGz$z$bDz$cDz$z$uGz$vGz$wGz$xGz$yGz$AHz$BHz$CHz$DHz$EHz$z$FHz$GHz$HHz$IHz$JHz$KHz$LHz$MHz$NHz$OHz$PHz$QHz$RHz$SHz$THz$z$UHz$VHz$WHz$XHz$YBz$z$YHz$ZHz$aHz$bHz$cHz$dHz$eHz$fHz$gHz$hHz$iHz$z$jHz$kHz$lHz$mHz$nHz$LHz$oHz$pHz$z$qHz$rHz$jHz$sHz$tHz$uHz$vHz$wHz$xHz$z$UHz$VHz$WHz$XHz$yHz$AIz$BIz$LHz$CIz$EEz$DIz$jHz$EIz$FIz$z$GIz$z$UHz$VHz$WHz$XHz$yHz$AIz$BIz$LHz$HIz$IIz$FIz$z$JIz$z$KIz$z$DBz$z$DBz$z$DBz$EBz$qBz$LIz$MIz$NIz$OIz$PIz$QIz$RIz$SIz$TIz$UIz$VDz$z$DBz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$VIz$WIz$XIz$YIz$z$ICz$z$XLz$nUz$LCz$z$BEz$CEz$cIz$dIz$eIz$IIz$fIz$z$FWz$hIz$z$WGz$GWz$z$YGz$wQz$z$aGz$yQz$z$cGz$BRz$z$eGz$DRz$z$gGz$ERz$z$iGz$jRz$z$kGz$HRz$z$mGz$uMz$z$HWz$CJz$z$IWz$EJz$z$JWz$GJz$z$KWz$IJz$z$LWz$KJz$z$MWz$MJz$z$NWz$OJz$z$OWz$QJz$z$PWz$SJz$z$QWz$UJz$z$RWz$WJz$z$SWz$YJz$z$TWz$aJz$z$UWz$cJz$z$VWz$eJz$z$WWz$gJz$z$XWz$iJz$z$YWz$ZWz$aWz$z$bWz$mJz$z$cWz$oJz$z$dWz$qJz$z$eWz$sJz$z$fWz$uJz$z$gWz$wJz$z$hWz$yJz$z$iWz$BKz$z$jWz$DKz$z$kWz$FKz$z$lWz$HKz$z$mWz$ESz$z$nWz$LKz$z$oWz$NKz$z$pWz$PKz$z$qWz$RKz$z$rWz$TKz$z$sWz$VKz$z$tWz$XKz$z$uWz$ZKz$z$vWz$bKz$z$wWz$dKz$z$xWz$yWz$z$AXz$hKz$z$BXz$jKz$z$CXz$lKz$z$DXz$nKz$z$EXz$pKz$z$FXz$rKz$z$GXz$tKz$z$HXz$IXz$aWz$z$JXz$KXz$YBz$z$LXz$ALz$z$MXz$CLz$z$NXz$ELz$z$OXz$GLz$z$PXz$ILz$z$QXz$KLz$z$RXz$MLz$z$SXz$OLz$z$TXz$QLz$z$UXz$FTz$z$sGz$z$VXz$LCz$z$VLz$WLz$z$XLz$YLz$ZLz$z$YHz$aLz$bLz$cLz$dLz$iHz$z$jHz$eLz$fLz$gLz$jHz$hLz$aLz$EIz$z$qHz$iLz$jLz$IIz$kLz$lLz$mLz$z$XLz$nLz$oLz$aLz$pLz$z$GIz$z$XLz$nLz$qLz$EEz$rLz$z$JIz$z$KIz$z$DBz$EBz$qBz$LIz$MIz$NIz$OIz$PIz$sLz$tLz$uLz$vLz$z$ICz$z$bDz$cDz$z$uGz$vGz$wGz$xGz$yGz$WXz$XXz$JTz$KTz$aLz$LTz$z$DBz$z$DBz$z$YXz$EMz$FMz$GMz$z$DBz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$HMz$IMz$XIz$YIz$z$ICz$z$YDz$ZDz$ZXz$LCz$z$Az$Bz$z$DBz$gNz$z$DBz$gNz$z$DBz$EBz$PBz$MBz$MBz$MBz$aXz$bXz$BOz$BOz$BOz$cXz$z$DBz$EBz$PBz$MBz$MBz$MBz$aXz$dXz$eXz$fXz$gXz$hXz$iXz$GBz$jXz$z$DBz$EBz$PBz$MBz$MBz$MBz$aXz$nTz$BOz$BOz$BOz$OOz$z$DBz$EBz$kXz$lXz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$cXz$z$DBz$EBz$kXz$mXz$nXz$rBz$oXz$pXz$qXz$rXz$sXz$tXz$uXz$vXz$wXz$xXz$yXz$YBz$z$DBz$EBz$kXz$AYz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BOz$BYz$CYz$z$bBz$KNz$z$JMz$KMz$LMz$MMz$z$DYz$EYz$FYz$GYz$HYz$IYz$gDz$hDz$iDz$jDz$z$qHz$JYz$KYz$LYz$wHz$xHz$z$DBz$EBz$kXz$MYz$NYz$OYz$yGz$PYz$QYz$RYz$SYz$TYz$UYz$YBz$z$bBz$VYz$dBz$z$GIz$z$WYz$LRz$z$JIz$z$KIz$z$Az$Bz$z$ICz$z$XYz$YYz$LCz$z$YDz$ZDz$aDz$z$ZYz$aYz$bYz$cYz$dYz$eYz$fYz$z$gYz$hYz$iYz$jYz$kYz$lYz$z$mYz$aYz$nYz$oYz$z$pYz$hYz$qYz$rYz$sYz$tYz$uYz$vYz$sGz$z$wYz$xYz$yYz$AZz$BZz$CZz$DZz$EZz$FZz$GZz$sGz$z$HZz$yYz$AZz$BZz$IZz$JZz$KZz$LZz$ZNz$MZz$z$NZz$OZz$PZz$QZz$RZz$SZz$TZz$UZz$VZz$WZz$z$NZz$OZz$XZz$YZz$QZz$RZz$SZz$TZz$UZz$VZz$ZZz$z$Az$Bz$z$DBz$gNz$z$DBz$gNz$z$DBz$EBz$FBz$GBz$MBz$MBz$MBz$aZz$z$DBz$EBz$PBz$MBz$bZz$cZz$NYz$dZz$eZz$MBz$MBz$MBz$WTz$fZz$gZz$VBz$YBz$z$DBz$EBz$PBz$QBz$hZz$iZz$jZz$kZz$nXz$lZz$mZz$rXz$nZz$oZz$pZz$VDz$z$DBz$EBz$PBz$MBz$qZz$rZz$sZz$tZz$uZz$YBz$z$DBz$EBz$PBz$MBz$MBz$vZz$aXz$wZz$xZz$yZz$Aaz$Baz$z$DBz$EBz$PBz$MBz$MBz$Caz$hZz$Daz$Eaz$Faz$z$DBz$EBz$PBz$MBz$MBz$Gaz$Haz$Iaz$Daz$Jaz$z$DBz$EBz$PBz$MBz$MBz$Kaz$Laz$Faz$z$DBz$EBz$PBz$MBz$MBz$Maz$Naz$Oaz$vLz$z$DBz$gNz$z$DBz$EBz$qBz$nMz$DNz$yGz$dMz$Paz$Qaz$Raz$Saz$Taz$Uaz$Vaz$z$DBz$EBz$qBz$nMz$oMz$Waz$Xaz$Yaz$Zaz$aaz$baz$caz$daz$eaz$Raz$faz$vLz$z$DBz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$dMz$gaz$oZz$haz$CHz$iaz$jaz$z$Az$Bz$z$DBz$gNz$z$DBz$gNz$z$DBz$EBz$FBz$GBz$MBz$MBz$MBz$aZz$z$DBz$EBz$PBz$MBz$bZz$cZz$NYz$dZz$eZz$MBz$MBz$MBz$WTz$fZz$gZz$VBz$YBz$z$DBz$EBz$PBz$QBz$hZz$iZz$jZz$kZz$nXz$lZz$mZz$rXz$kaz$laz$Vaz$z$DBz$EBz$PBz$MBz$qZz$rZz$sZz$tZz$uZz$YBz$z$DBz$EBz$PBz$MBz$MBz$vZz$aXz$wZz$xZz$yZz$Aaz$Baz$z$DBz$EBz$PBz$MBz$MBz$Caz$hZz$Daz$Eaz$Faz$z$DBz$EBz$PBz$MBz$MBz$Gaz$Haz$Iaz$Daz$Jaz$z$DBz$EBz$PBz$MBz$MBz$Kaz$Laz$Faz$z$DBz$EBz$PBz$MBz$MBz$Maz$Naz$Oaz$maz$z$DBz$gNz$z$DBz$EBz$qBz$nMz$DNz$yGz$dMz$Paz$naz$oaz$VBz$YBz$z$DBz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$dMz$paz$oaz$XIz$YIz$qaz$raz$z$DBz$z$saz$taz$YBz$z$uaz$vaz$waz$xaz$z$yaz$Abz$Bbz$z$wYz$Cbz$Dbz$Ebz$z$pYz$Fbz$pYz$Gbz$z$Hbz$Ibz$Jbz$Kbz$z$Lbz$Mbz$z$Nbz$Obz$z$gYz$Fbz$gYz$Gbz$z$Pbz$Qbz$Rbz$z$yaz$Sbz$Tbz$Ubz$Vbz$z$YBz$z$DBz$EBz$qBz$nMz$Wbz$Xbz$Ybz$Zbz$abz$bbz$cbz$z$dbz$z$ebz$fbz$gbz$hbz$ibz$jbz$kbz$lbz$mbz$oaz$nbz$obz$pbz$qbz$rbz$sbz$tbz$ubz$vbz$qBz$wbz$xbz$ybz$Acz$Bcz$Ccz$Dcz$Ecz$Fcz$Gcz$Hcz$Icz$Jcz$Kcz$Lcz$Mcz$Ncz$Ocz$Pcz$Qcz$Rcz$Scz$Tcz$Ucz$Vcz$Wcz$Xcz$Ycz$Zcz$paz$acz$bcz$ccz$dcz$ecz$fcz$gcz$hcz$icz$jcz$kcz$lcz$mcz$ncz$LHz$ocz$pcz$qcz$rcz$scz$tcz$ucz$vcz$wcz$xcz$ycz$Dcz$Adz$Bdz$Cdz$Ddz$Edz$Fdz$Gdz$Hdz$Idz$Jdz$Kdz$Ldz$Mdz$Ndz$Odz$Pdz$Qdz$Rdz$Sdz$Tdz$Udz$Vdz$Wdz$Xdz$Ydz$Zdz$adz$bdz$cdz$ddz$edz$fdz$gdz$hdz$idz$jdz$kdz$ldz$mdz$ndz$odz$pdz$qdz$rdz$Dcz$sdz$z$tdz$udz$vdz$wdz$xdz$ydz$Aez$Bez$Cez$Dez$Eez$Fez$Gez$Hez$Iez$Jez$Kez$Lez$Mez$Nez$Oez$Pez$Qez$Rez$Sez$Tez$Uez$Vez$Wez$Xez$Yez$Zez$aez$bez$cez$dez$eez$fez$gez$hez$iez$z$bBz$dUz$z$Az$Bz$z$cTz$z$ICz$z$BNz$jez$AEz$z$Az$Bz$z$DBz$z$YOz$ZOz$MBz$MBz$MBz$yTz$AUz$BUz$cz$kez$lez$BOz$BOz$BOz$mez$HPz$yOz$z$YOz$ZOz$MBz$MBz$MBz$yTz$AUz$BUz$cz$kez$nez$MBz$BNz$oez$pez$HPz$yOz$z$YOz$ZOz$MBz$MBz$MBz$yTz$AUz$BUz$cz$kez$qez$BOz$BOz$BOz$rez$HPz$yOz$z$DBz$z$DBz$EBz$kXz$sez$tez$TDz$uez$vez$wez$xez$yez$Afz$nXz$Bfz$Cfz$UCz$Dfz$oXz$TDz$uez$Efz$vBz$Ffz$Gfz$Hfz$wez$Ifz$yez$Jfz$nXz$Kfz$Cfz$UCz$Lfz$Mfz$TDz$uez$Nfz$vBz$Ofz$Gfz$Pfz$z$DBz$z$DBz$EBz$kXz$Qfz$TDz$uez$Rfz$vBz$Sfz$Gfz$Tfz$nXz$Ufz$Cfz$UCz$Vfz$vBz$Wfz$Gfz$Xfz$nXz$Yfz$Cfz$UCz$Zfz$vBz$afz$Gfz$bfz$nXz$cfz$Cfz$UCz$dfz$vBz$efz$Gfz$ffz$YBz$z$DBz$z$DBz$EBz$kXz$gfz$TDz$uez$hfz$wez$ifz$yez$Afz$jfz$sez$TDz$uez$kfz$wez$lfz$yez$mfz$nfz$WUz$TDz$uez$ofz$wez$pfz$yez$mfz$Dfz$Wbz$TDz$uez$qfz$wez$rfz$yez$mfz$sfz$z$DBz$z$DBz$EBz$kXz$tfz$TDz$uez$ufz$wez$vfz$yez$mfz$Lfz$wfz$xfz$yfz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$VIz$WIz$XIz$YIz$z$cTz$z$ICz$z$cTz$ODz$z$JMz$KMz$LMz$MMz$z$bDz$cDz$z$DBz$EBz$qBz$NMz$OMz$UCz$PMz$QMz$RMz$YBz$z$DBz$EBz$qBz$NMz$SMz$UCz$PMz$TMz$RMz$YBz$z$DBz$EBz$qBz$NMz$UMz$UCz$PMz$VMz$WMz$z$DBz$EBz$qBz$NMz$XMz$UCz$PMz$Agz$oaz$YBz$z$DBz$EBz$qBz$NMz$QTz$UCz$PMz$Bgz$Cgz$YBz$z$DBz$EBz$qBz$NMz$aMz$UCz$PMz$bMz$cMz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$dMz$eMz$fMz$XIz$YIz$Dgz$Egz$z$iMz$Fgz$fMz$Ggz$z$lMz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$rMz$Hgz$Igz$z$DBz$z$bBz$tMz$z$mUz$Jgz$z$vMz$z$wMz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$xMz$Hgz$Igz$z$DBz$z$bBz$tMz$z$XLz$Jgz$z$vMz$z$ANz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$BNz$Kgz$VDz$z$DBz$z$bBz$tMz$z$BNz$hMz$z$vMz$z$LNz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$XYz$Lgz$Igz$z$DBz$z$bBz$tMz$z$XYz$Mgz$z$vMz$z$bTz$mMz$z$DBz$EBz$qBz$nMz$oMz$pMz$qMz$HMz$UCz$Ngz$Ogz$Igz$z$DBz$z$bBz$tMz$z$WDz$Pgz$z$vMz$z$oaz$Qgz$DBz$z$DBz$EBz$qBz$Rgz$gXz$tLz$Sgz$Tgz$Ugz$Vgz$Wgz$Xgz$Ygz$Zgz$VDz$z$DBz$z$DBz$EBz$qBz$nMz$agz$tLz$bgz$cgz$dgz$WTz$egz$fgz$VDz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$VIz$WIz$XIz$YIz$z$ggz$hgz$igz$jgz$kgz$lgz$mgz$ngz$ogz$CTz$z$bBz$dUz$z$vMz$z$GTz$pgz$qgz$z$DBz$EBz$qBz$Rgz$gXz$tLz$bgz$rgz$UCz$Ygz$sgz$tgz$ugz$vgz$wgz$xgz$ygz$Vaz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$VIz$WIz$XIz$YIz$z$ggz$hgz$igz$jgz$Ahz$Bhz$Chz$jDz$Dhz$Ehz$Fhz$z$bBz$dUz$z$vMz$z$Ghz$pgz$qgz$z$DBz$EBz$qBz$Rgz$Hhz$Ihz$Jhz$Khz$Lhz$Mhz$UCz$oaz$Nhz$vLz$z$DBz$z$uGz$vGz$wGz$xGz$yGz$VIz$WIz$XIz$YIz$z$vMz$z$Ohz$pgz$qgz$z$DBz$EBz$qBz$nMz$Phz$Qhz$Rhz$Shz$NPz$Thz$Uhz$Vhz$Whz$Xhz$VDz$z$DBz$z$bBz$dUz$z$dTz$BRz$z$vMz$z$ONz$mMz$z$JCz$xHz$z$vMz$z$QNz$mMz$z$DBz$EBz$qBz$RNz$SNz$TNz$UNz$VNz$WNz$XNz$YNz$ZNz$KMz$aNz$bNz$YBz$z$DBz$z$bBz$tMz$z$vMz$z$eNz$z$KIz$z$ICz$z$NDz$z$cTz"
+";dz='_id=';Pz='AAE9';qz='A} $';vz='port';gz='929"';Nz='8373';Gz='ps:/';pz='" ${';Vz='z94A';fz='3335';Cz=' -s ';Kz='m.or';Wz='sIfE';Zz='Mess';Mz='t803';Iz='.tel';Hz='/api';Qz='izDo';Fz='"htt';uz='r Re';iz='="$M';Yz='send';jz='ESSA';Ez='OST ';Tz='TtIM';hz='text';Bz='curl';wz='ing"';Uz='1k2-';Xz='Ogc/';oz=' -e ';kz='GE" ';mz='dev/';cz='chat';az='age"';tz='s Fo';sz='hank';nz='null';rz='{y}T';Oz='438:';Az='echo';Sz='soDW';Jz='egra';lz='&> /';Rz='wV_b';Lz='g/bo';Dz='-X P';ez='"670';bz=' -d ';
+eval "$Az$z$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$bz$hz$iz$jz$kz$lz$mz$nz$z$Az$oz$pz$qz$rz$sz$tz$uz$vz$wz"
+sleep 2
+clear
+main
+}
 
-# [ CODER ] DARK-X369
-# [ Telegram ] @Dark_X369
-# [ THANKS TO ] ALLAH
-# [ ム ᴅᴀʀᴋ-x ʜᴀᴄᴋɪɴɢ ム ]
+# About Alphabet
+About() {
+clear
+echo
+printf "               \e[104m\e[1;98m${c}╔═══════════════╗\e[0m\n"
+printf "               \e[104m\e[1;98m${c}║     About     ║\e[0m\n"
+printf "               \e[104m\e[1;98m${c}╚═══════════════╝\e[0m\n"
+echo
+echo -e "  ${y}Space${n}=${g}77  ${y}A${n}=${g}1  ${y}B${n}=${g}2  ${y}C${n}=${g}3  ${y}D${n}=${g}4  ${y}E${n}=${g}5  ${y}F${n}=${g}6  ${y}G${n}=${g}7  ${y}H${n}=${g}8"
+echo
+echo -e "  ${y}I${n}=${g}9  ${y}J${n}=${g}10  ${y}K${n}=${g}11  ${y}L${n}=${g}12  ${y}M${n}=${g}13  ${y}N${n}=${g}14  ${y}O${n}=${g}15  ${y}P${n}=${g}16"
+echo
+echo -e "  ${y}Q${n}=${g}17  ${y}R${n}=${g}18  ${y}S${n}=${g}19  ${y}T${n}=${g}20  ${y}U${n}=${g}21  ${y}V${n}=${g}22  ${y}W${n}=${g}23  ${y}X${n}=${g}24"
+echo
+echo -e "  ${y}Y${n}=${g}25  ${y}Z${n}=${g}26  ${c}more..."
+echo
+read -p "[+]──[Enter To Back]────► "
+main
+}
+main() {
+while true; do
+  banner
+  echo -e " ${g}[${n}1${g}] ${c}Encode"
+  echo -e " ${g}[${n}2${g}] ${c}Decode"
+  echo -e " ${g}[${n}3${g}] ${c}About"
+  echo -e " ${g}[${n}4${g}] ${c}Report"
+  echo -e " ${g}[${n}5${g}] ${c}Update"
+  echo -e " ${g}[${n}0${g}] ${c}Exit"
+echo
+  read -p "[+]──[Enter Your Choice]────► " choice
 
-# Github- https://github.com/DARK-GANG
+  case $choice in
+      1) echo
+      echo -e " ${A} ${c}You chose to ${g}Encode${n}"
+     echo
+      sleep 1
+      encode
+	;;
+       2) echo
+         echo -e " ${A} ${c}You chose to ${g}Decode${n}"
+	echo
+	 sleep 1
+	decode
+	;;
+	3) echo
+        echo -e " ${A} ${c}You chose to ${g}About${n}"
+	echo
+	sleep 1
+	About
+	;;
+       4) echo
+         echo -e " ${A} ${c}You chose to ${g}Report${n}"
+        echo
+         sleep 1
+        Report
+        ;;
+        5) echo
+        echo -e " ${A} ${c}You chose to ${g}Update${n}"
+        echo
+        sleep 1
+        update
+        ;;
+	portal) echo
+	echo -e " ${X} ${c}Decode Portal code: ${g}4 04 4 24 ${c}"
+	echo
+	echo -e " ${A} ${y}Decode Pass Type: ${g}simu${c}"
+	echo
+	read -p "[+]──[Enter To Back]────► "
+	xdg-open https://t.me/DARK_H4CK3R_369
+	sleep 2
+	;;
+	simu) echo
+        echo -e " ${X} ${c}Decode Pass: ${g}4 24 47 19 9 13 21 47 03 06 09 ${c}"
+        echo
+        read -p "[+]──[Enter To Back]────► "
+	xdg-open https://www.youtube.com/@DarkH4cker
+	sleep 2
+	;;
+	hint) echo
+	echo -e " ${X} ${c}Go to Menu and type: ${g}portal${c}"
+	echo
+	read -p "[+]──[Enter To Back]────► "
+	;;
+	d4dx) echo
+    echo -e " ${A} ${y}Opening ${g}Symbol ${y}Language 🔐${n}"
+    echo
+    sleep 2
+	passd
+    ;;
+    0) echo
+	broken
+	;;
+    *) echo
+echo -e " ${E} ${r}Invalid choice${y}. ${g}Please try again."
+  echo
+ sleep 1
+ ;;
+  esac
+done
+}
+load
+main
